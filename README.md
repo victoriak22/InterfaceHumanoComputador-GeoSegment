@@ -1,4 +1,4 @@
-# InterfaceHumanoComputador-GeoSegment
+# Interface Humano Computador: GeoSegment
 
 Este repositório contém o projeto desenvolvido no contexto da disciplina **Interface Humano-Computador (IHC)**, associado ao Trabalho de Conclusão de Curso (TCC), com foco na aplicação de princípios de usabilidade, experiência do usuário e design de interação.
 
