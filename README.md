@@ -24,7 +24,7 @@ Ferramenta para Automatizar a Segmentação Semântica de Imagens Aéreas para M
 
 ## 3. Orientador(a)
 
-Luciano Rossi
+Luciano Rossi <br>
 lrossi@fei.edu.br
 
 ---
