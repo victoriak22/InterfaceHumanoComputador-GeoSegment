@@ -9,9 +9,9 @@ Este repositório contém o projeto desenvolvido no contexto da disciplina **Int
 | Nome | RA |
 |------|----| 
 | **Deise Adriana Silva Araújo** | 22.222.024-6 |
+| **Gustavo Dias Vicentin** | 22.123.061-8 |
 | **Lucas Rebouças Silva** | 22.122.048-6 |
 | **Victor Caldeira Iak** | 22.122.057-7 |
-| **Gustavo Dias Vicentin** | 22.123.061-8 |
 | **Vinicius Saidi Soares** | 22.122.064-3 |
 
 ---
