@@ -38,7 +38,7 @@ lrossi@fei.edu.br
 
 ## 5. Objetivo do Trabalho
 
-O objetivo deste projeto é desenvolver uma ferramenta intuitiva que automatiza a segmentação semântica de uso e cobertura do solo em imagens aéreas com alta resolução.
+O objetivo deste projeto é desenvolver uma ferramenta intuitiva que automatiza a segmentação semântica de uso e cobertura do solo em imagens aéreas com alta resolução, permitindo a geração de mapas temáticos de forma prática e reprodutível.
 
 ---
 
