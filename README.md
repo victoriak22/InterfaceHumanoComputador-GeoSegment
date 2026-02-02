@@ -18,7 +18,7 @@ Este repositório contém o projeto desenvolvido no contexto da disciplina **Int
 
 ## 2. Título Original do TCC
 
-Informe aqui o título completo do Trabalho de Conclusão de Curso.
+Ferramenta para Automatizar a Segmentação Semântica de Imagens Aéreas para Mapeamento Ambiental
 
 ---
 
