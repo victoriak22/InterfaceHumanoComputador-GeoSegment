@@ -31,7 +31,7 @@ lrossi@fei.edu.br
 
 ## 4. Desenvolvimento de Interface
 
-- [ ] Sim  
+- [X] Sim  
 - [ ] Não  
 
 ---
