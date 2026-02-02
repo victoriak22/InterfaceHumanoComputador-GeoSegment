@@ -44,7 +44,7 @@ O objetivo deste projeto é desenvolver uma ferramenta intuitiva que automatiza 
 
 ## 6. Produto Final
 
-Nosso produto final trata-se de uma interface web interativa denominada GeoSegment integrada a um modelo de aprendizado profundo a qual permitida ao usuário um processo de segmentação de imagens
+Nosso produto final trata-se de uma interface web interativa denominada GeoSegment integrada a um modelo de rede neural o qual oferece ao usuário um processo automático de segmentação de imagens
 
 ---
 
