@@ -9,9 +9,9 @@ Este repositório contém o projeto desenvolvido no contexto da disciplina **Int
 | Nome | RA |
 |------|----| 
 | **Deise Adriana Silva Araújo** | 22.222.024-6 |
-| **Gustavo Dias Vicentin** | 22.123.061-8 |
 | **Lucas Rebouças Silva** | 22.122.048-6 |
 | **Victor Caldeira Iak** | 22.122.057-7 |
+| **Gustavo Dias Vicentin** | 22.123.061-8 |
 | **Vinicius Saidi Soares** | 22.122.064-3 |
 
 ---
@@ -38,13 +38,13 @@ lrossi@fei.edu.br
 
 ## 5. Objetivo do Trabalho
 
-Descrever o objetivo principal do projeto, explicitando o problema abordado, a motivação para seu desenvolvimento e os resultados esperados a partir da solução proposta.
+O objetivo deste projeto é desenvolver uma ferramenta intuitiva que automatiza a segmentação semântica de uso e cobertura do solo em imagens aéreas com alta resolução.
 
 ---
 
 ## 6. Produto Final
 
-Descrição do produto a ser desenvolvido, como por exemplo: aplicação web, aplicação mobile, sistema interativo, protótipo de alta fidelidade ou ferramenta computacional.
+Nosso produto final trata-se de uma interface web interativa denominada GeoSegment integrada a um modelo de aprendizado profundo a qual permitida ao usuário um processo de segmentação de imagens
 
 ---
 
