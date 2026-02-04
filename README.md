@@ -38,7 +38,7 @@ lrossi@fei.edu.br
 
 ## 5. Objetivo do Trabalho
 
-O objetivo deste projeto é desenvolver uma ferramenta intuitiva que automatiza a segmentação semântica de uso e cobertura do solo em imagens aéreas com alta resolução, permitindo a geração de mapas temáticos de forma prática e reprodutível.
+O objetivo deste projeto é desenvolver uma interface intuitiva que automatiza a segmentação semântica de uso e cobertura do solo em imagens aéreas com alta resolução, permitindo a geração de mapas temáticos de forma prática e reprodutível.
 
 ---
 
@@ -50,22 +50,27 @@ Nosso produto final trata-se de uma interface web interativa denominada GeoSegme
 
 ## 7. Usuário Final
 
-Caracterização do público-alvo da aplicação, incluindo perfil dos usuários, área de atuação, nível de conhecimento técnico e necessidades atendidas pelo sistema.
+Pesquisadores e especialistas ambientais
 
 ---
 
 ## 8. Benefícios ao Usuário
 
-Descrição dos benefícios proporcionados pelo uso da aplicação, tais como melhoria na eficiência das tarefas, facilidade de uso, apoio à tomada de decisão e melhor visualização das informações.
+- Fácil adaptação a interface ao público-alvo
+- Personalização 
+- Processo acelerado de segmentação
+- Confiabilidade dos resultados
+- Apoio em tomadas de decisões
 
 ---
 
 ## 9. Funcionalidades da Ferramenta (Visão do Usuário)
 
-- Funcionalidade 1  
-- Funcionalidade 2  
-- Funcionalidade 3  
-- Funcionalidade 4  
+- Segmentar imagens (ex.: .tiff ou .png)
+- Seleção de redes neurais
+- Marcador de funcionalidade (ex.: qual rede neural está sendo utilizada) 
+- Geração de insights sobre a imagem segmentada da área
+- Painéis e dashboards que apoiam tomadas de decisões ambientais
 
 ---
 
