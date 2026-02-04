@@ -56,8 +56,7 @@ Pesquisadores e especialistas ambientais
 
 ## 8. Benefícios ao Usuário
 
-- Fácil adaptação a interface ao público-alvo
-- Personalização 
+- Fácil adaptação a interface ao público-alvo 
 - Processo acelerado de segmentação
 - Confiabilidade dos resultados
 - Apoio em tomadas de decisões
@@ -68,25 +67,33 @@ Pesquisadores e especialistas ambientais
 
 - Segmentar imagens (ex.: .tiff ou .png)
 - Seleção de redes neurais
-- Marcador de funcionalidade (ex.: qual rede neural está sendo utilizada) 
+- Informações técnicas (ex.: qual rede neural está sendo utilizada)
 - Geração de insights sobre a imagem segmentada da área
 - Painéis e dashboards que apoiam tomadas de decisões ambientais
+- Comparação temporal de resultados
 
 ---
 
 ## 10. Tecnologias e Ferramentas Computacionais
 
-- Linguagens de programação  
-- Frameworks e bibliotecas  
-- Banco de dados  
-- Ferramentas de design e prototipação  
-- Outras tecnologias relevantes  
+- Linguagem de programação: Python
+- Bibliotecas do Python: PyTorch, TensorFlow, Scikit-learn, entre outras
+- Banco de dados: EM DISCUSSÃO
+- Ferramentas de design e prototipação: Figma
+- Redes neurais convolucionais: U-Net, DeepLabV3+ e LULC-SegNet
+- Cronograma: Trello
+- "Supercomputador Santos Dumont" do Laboratório Nacional de Computação Científica (LNCC)
+- Artigo: OverLeaf
 
 ---
 
 ## 11. Contexto de Uso da Aplicação (IHC)
 
-Descrição do contexto de uso da aplicação, considerando os conceitos de Interface Humano-Computador, tais como o ambiente de utilização, as condições de uso, os dispositivos envolvidos, as limitações dos usuários e o tipo de interação esperada.
+Ambiente de utilização: normalmente dentro de escritórios, em poucos casos ambientes rurais
+Condições de uso: como dentro do escritório, ambiente controlado, sem ruídos, tripidações, luz acessa
+Dispositivos envolvidos: desktops com acesso a internet
+Limitações dos usuários: falta de internet e luz
+Tipo de interação esperada: tradicional de desktop
 
 ---
 
