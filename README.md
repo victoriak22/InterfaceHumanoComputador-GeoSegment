@@ -89,11 +89,11 @@ Pesquisadores e especialistas ambientais
 
 ## 11. Contexto de Uso da Aplicação (IHC)
 
-Ambiente de utilização: normalmente dentro de escritórios, em poucos casos ambientes rurais
-Condições de uso: como dentro do escritório, ambiente controlado, sem ruídos, tripidações, luz acessa
-Dispositivos envolvidos: desktops com acesso a internet
-Limitações dos usuários: falta de internet e luz
-Tipo de interação esperada: tradicional de desktop
+Ambiente de utilização: Normalmente dentro de escritórios, somente em poucos casos em ambientes rurais
+Condições de uso: Pelo fato de o ambiente de utilização ser usualmente em escritórios, suas condições são um ambiente controlado, com poucos ruídos, sem tripidações e com alta luminosidade
+Dispositivos envolvidos: Desktops com acesso a internet
+Limitações dos usuários: Somente em caso de falta de internet e luz
+Tipo de interação esperada: Interação tradicional de desktop
 
 ---
 
