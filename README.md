@@ -1,10 +1,14 @@
-# Interface Humano Computador: GeoSegment
+# CC8122 - INTERFACE HUMANO-COMPUTADOR (FEI) - GEOSEGMENT
 
 Este repositório contém o projeto desenvolvido no contexto da disciplina **Interface Humano-Computador (IHC)**, associado ao Trabalho de Conclusão de Curso (TCC), com foco na aplicação de princípios de usabilidade, experiência do usuário e design de interação.
 
 ---
 
-## 1. Membros da Equipe
+## 1. ENTREGAS
+
+---
+
+## 2. MEMBROS DA EQUIPE
 
 | Nome | RA |
 |------|----| 
