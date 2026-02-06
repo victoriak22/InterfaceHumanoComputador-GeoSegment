@@ -35,5 +35,5 @@ O projeto tem como objetivo aplicar conceitos de **usabilidade**, **experiência
 ## Instituição
 
 Centro Universitário FEI  
-Curso: Engenharia / Computação  
+Curso: Ciência da Computação
 Disciplina: **CC8122 — Interface Humano-Computador**
