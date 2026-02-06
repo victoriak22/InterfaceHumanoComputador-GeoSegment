@@ -8,45 +8,31 @@
 | **Victor Caldeira Iak** | 22.122.057-7 |
 | **Vinicius Saidi Soares** | 22.122.064-3 |
 
----
-
 ## 2. Título Original do TCC
 
 Ferramenta para Automatizar a Segmentação Semântica de Imagens Aéreas para Mapeamento Ambiental
-
----
 
 ## 3. Orientador(a)
 
 Luciano Rossi <br>
 lrossi@fei.edu.br
 
----
-
 ## 4. Desenvolvimento de Interface
 
 - [X] Sim  
 - [ ] Não  
 
----
-
 ## 5. Objetivo do Trabalho
 
 O objetivo deste projeto é desenvolver uma interface intuitiva que automatiza a segmentação semântica de uso e cobertura do solo em imagens aéreas com alta resolução, permitindo a geração de mapas temáticos de forma prática e reprodutível.
-
----
 
 ## 6. Produto Final
 
 Nosso produto final trata-se de uma interface web interativa denominada GeoSegment integrada a um modelo de rede neural o qual oferece ao usuário um processo automático de segmentação de imagens
 
----
-
 ## 7. Usuário Final
 
 Pesquisadores e especialistas ambientais
-
----
 
 ## 8. Benefícios ao Usuário
 
@@ -54,8 +40,6 @@ Pesquisadores e especialistas ambientais
 - Processo acelerado de segmentação
 - Confiabilidade dos resultados
 - Apoio em tomadas de decisões
-
----
 
 ## 9. Funcionalidades da Ferramenta (Visão do Usuário)
 
@@ -65,8 +49,6 @@ Pesquisadores e especialistas ambientais
 - Geração de insights sobre a imagem segmentada da área
 - Painéis e dashboards que apoiam tomadas de decisões ambientais
 - Comparação temporal de resultados
-
----
 
 ## 10. Tecnologias e Ferramentas Computacionais
 
@@ -78,8 +60,6 @@ Pesquisadores e especialistas ambientais
 - Cronograma: Trello
 - "Supercomputador Santos Dumont" do Laboratório Nacional de Computação Científica (LNCC)
 - Artigo: OverLeaf
-
----
 
 ## 11. Contexto de Uso da Aplicação (IHC)
 
