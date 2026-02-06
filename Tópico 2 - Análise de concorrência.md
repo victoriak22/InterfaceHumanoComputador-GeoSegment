@@ -1,1 +1,1 @@
-
+# Análise de concorrência
