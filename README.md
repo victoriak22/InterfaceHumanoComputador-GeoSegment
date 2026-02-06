@@ -14,6 +14,7 @@ O projeto tem como objetivo aplicar conceitos de **usabilidade**, **experiência
 | Tópico | Descrição | Acesso |
 |--------|----------|--------|
 | **Tópico 1** | Definições Iniciais | [Visualizar](https://github.com/victoriak22/InterfaceHumanoComputador-GeoSegment/blob/main/T%C3%B3pico%201%20-%20Defini%C3%A7%C3%B5es%20Iniciais.md) |
+| **Tópico 2** | Análise de concorrência | [Visualizar](https://github.com/victoriak22/InterfaceHumanoComputador-GeoSegment/blob/main/T%C3%B3pico%202%20-%20An%C3%A1lise%20de%20concorr%C3%AAncia.md) |
 
 ## Membros da Equipe
 
