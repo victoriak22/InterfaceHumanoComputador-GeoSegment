@@ -1,3 +1,5 @@
+# Definições Iniciais
+
 ## 1. Membros da Equipe
 
 | Nome | RA |
