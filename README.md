@@ -1,4 +1,4 @@
-# CC8122 — INTERFACE HUMANO-COMPUTADOR (FEI)
+## CC8122 — INTERFACE HUMANO-COMPUTADOR (FEI)
 ## Projeto GEOSEGMENT
 
 ![FEI](https://img.shields.io/badge/Instituição-FEI-blue)
