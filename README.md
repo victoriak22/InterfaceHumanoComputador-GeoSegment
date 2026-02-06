@@ -1,4 +1,4 @@
-## CC8122 — INTERFACE HUMANO-COMPUTADOR [GEOSEGMENT]
+## (CC8122) INTERFACE HUMANO-COMPUTADOR: PROJETO GEOSEGMENT
 
 ![FEI](https://img.shields.io/badge/Instituição-FEI-blue)
 ![Disciplina](https://img.shields.io/badge/Disciplina-IHC-critical)
