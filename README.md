@@ -5,7 +5,7 @@ Este repositório contém o projeto desenvolvido no contexto da disciplina **Int
 
 ## 1. ENTREGAS
 
-- [Tópico 1 - Definições Iniciais](https://github.com/victoriak22/InterfaceHumanoComputador-GeoSegment/blob/main/T%C3%B3pico%201%20-%20Defini%C3%A7%C3%B5es%20Iniciais)
+- [Tópico 1 - Definições Iniciais](https://github.com/victoriak22/InterfaceHumanoComputador-GeoSegment/blob/main/T%C3%B3pico%201%20-%20Defini%C3%A7%C3%B5es%20Iniciais.md)
 
 ## 2. MEMBROS DA EQUIPE
 
