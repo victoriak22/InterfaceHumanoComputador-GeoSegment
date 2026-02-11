@@ -26,11 +26,11 @@ lrossi@fei.edu.br
 
 ## 5. Objetivo do Trabalho
 
-O objetivo deste projeto é desenvolver uma interface intuitiva que automatiza a segmentação semântica de uso e cobertura do solo em imagens aéreas com alta resolução, permitindo a geração de mapas temáticos de forma prática e reprodutível.
+O objetivo central é fornecer uma ferramenta de suporte à decisão e gestão territorial, tornando o processo de análise ambiental mais rápido, preciso e escalável do que o mapeamento manual tradicional.
 
 ## 6. Produto Final
 
-Nosso produto final trata-se de uma interface web interativa denominada GeoSegment integrada a um modelo de rede neural o qual oferece ao usuário um processo automático de segmentação de imagens
+O produto final entregue é uma plataforma web chamada GeoSegment, que utiliza inteligência artificial para realizar o mapeamento automático do uso e cobertura do solo.
 
 ## 7. Usuário Final
 
