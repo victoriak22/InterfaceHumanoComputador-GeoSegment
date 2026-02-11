@@ -16,6 +16,16 @@
 - **Quais são as dores?** A dificuldade técnica de instalar e configurar modelos complexos; a demora no processamento de imagens de alta resolução.
 - **Quais são as necessidades?** Uma interface intuitiva onde possa apenas enviar a imagem e receber o mapa e as estatísticas de área.
 
+### Contexto de Uso
+- **Cenário Físico:** Ricardo trabalha em uma sala arejada na sede do ICMBio, sentado em uma mesa ergonômica com dois monitores grandes para facilitar a visualização de detalhes espaciais.
+- **Narrativa:** É manhã de segunda-feira e Ricardo precisa validar uma denúncia de desmatamento na APA de Petrópolis. Ele abre o navegador e acessa o GeoSegment. O ambiente social é de foco; ele não quer lidar com a complexidade técnica de softwares locais como o QGIS. Ricardo faz o upload de uma imagem de 30 cm/px e, enquanto toma seu café, observa a barra de progresso. Ao ver o mapa segmentado lado a lado com a imagem original, ele identifica rapidamente que uma área de Vegetação Densa foi convertida em Solo Exposto, confirmando a infração através das estatísticas geradas automaticamente pela plataforma.
+
+### Jornada de Usuário
+- **Objetivo:** Identificar rapidamente um possível desmatamento na APA de Petrópolis para gerar um auto de infração.
+- **Ações:** Acessa o navegador -> Entra no site do GeoSegment -> Faz o upload da imagem de alta resolução (30 cm/px) -> Clica em "Processar Segmentação" -> Analisa o mapa temático comparando-o com a imagem original.
+- **Pensamentos:** "Preciso que esse modelo seja preciso nas bordas da vegetação densa." "Ainda bem que não precisei configurar o QGIS para isso".
+- **Emoções:** Ansiedade pelo prazo de fiscalização -> Curiosidade durante o processamento -> Alívio e confiança ao ver a classe "Solo Exposto" claramente identificada onde antes havia floresta.
+
 ## 2. Dra. Helena Silveira (Pesquisadora Acadêmica)
 - **Status:** Persona Secundária.
 - **Identidade:** 35 anos, doutora em Visão Computacional.
@@ -32,6 +42,16 @@
 - **Quais são as dores?** O tamanho limitado do dataset (35 imagens) que pode dificultar a generalização do modelo para outras regiões.
 - **Quais são as necessidades?** Acesso a métricas detalhadas (IoU por classe) e transparência nos processos de aumento de dados e validação cruzada.
 
+### Contexto de Uso
+- **Cenário Físico:** Um laboratório acadêmico silencioso, com iluminação controlada para evitar reflexos nas telas. Ela utiliza uma estação de trabalho de alto desempenho.
+- **Narrativa:** Helena está revisando os resultados do modelo V2 (DeepLabV3+) para um artigo científico. Ela analisa o comportamento do modelo em regiões de bordas e transições abruptas. No contexto social, ela interage com alunos de pós-graduação, discutindo por que o mIoU de 73,81% da V2 é preferível para a interface web devido à menor latência de inferência, apesar de ser ligeiramente inferior ao benchmark V0. Ela utiliza a interface para realizar testes de estresse com patches de imagens que possuem classes desbalanceadas, como Água e Rocha.
+
+### Jornada de Usuário
+- **Objetivo:** Validar se a arquitetura DeepLabV3+ com backbone ResNet-101 (V2) mantém a consistência em classes minoritárias como "Água".
+- **Ações:** Abre a plataforma -> Sobe amostras específicas com presença de corpos d'água e rocha -> Observa a segmentação em nível de pixel -> Compara os percentuais gerados com seus dados de referência.
+- **Pensamentos:** "Será que o Combo Loss da V2 realmente penalizou os erros nas classes desbalanceadas?" "A latência de inferência parece menor que a da V0".
+- **Emoções:** Ceticismo científico -> Concentração profunda -> Satisfação ao notar que o refinamento de bordas está superior às versões anteriores.
+
 ## 3. Felipe Antunes (Consultor Ambiental de Empresa Privada)
 - **Status:** Persona Secundária.
 - **Identidade:** 29 anos, trabalha em uma concessionária de rodovias (ex: Ecorodovias).
@@ -46,6 +66,16 @@
 - **O que fala e faz?** Analisa áreas de impacto ambiental e exporta mapas temáticos para apresentações comerciais.
 - **Quais são as dores?** O alto custo de licenças de softwares como ArcGIS e a necessidade de hardware potente para processamento local.
 - **Quais são as necessidades?** Uma ferramenta web estável que não exija instalação e que forneça proporções estatísticas rápidas por classe.
+
+### Contexto de Uso
+- **Cenário Físico:** Escritório moderno de uma grande empresa (ex: Ecorodovias), em um ambiente agitado com telefones tocando e prazos curtos.
+- **Narrativa:** Felipe precisa finalizar um laudo de impacto ambiental para uma nova obra viária até o fim do dia. Ele utiliza um notebook corporativo conectado ao Wi-Fi da empresa. O contexto é de alta pressão por produtividade. Em vez de esperar dias pelo processamento de uma equipe de geoprocessamento externa, ele mesmo sobe os recortes da área de interesse no GeoSegment. A facilidade de obter as proporções por classe (como área urbana vs. vegetação esparsa) permite que ele preencha as tabelas do relatório técnico de forma instantânea, garantindo a entrega no prazo.
+
+### Jornada de Usuário
+- **Objetivo:** Obter dados estatísticos de ocupação urbana para um laudo de licenciamento de rodovias.
+- **Ações:** Abre o notebook no meio de uma reunião -> Acessa a API do GeoSegment -> Faz o upload do recorte da área da obra -> Copia os valores percentuais das classes "Urbano" e "Vegetação Esparsa" diretamente para sua planilha.
+- **Pensamentos:** "Se eu tivesse que esperar o setor de geoprocessamento processar isso, levaria dias." "O visual desse mapa colorido vai impressionar o cliente".
+- **Emoções:** Estresse pela urgência do laudo -> Pressa -> Entusiasmo com a agilidade da entrega dos resultados via web.
 
 ## 4. Cláudia Torres (Gestora de Políticas Públicas / Governo)
 - **Status:** Outro Stakeholder (Interessado no resultado, mas não opera a ferramenta diariamente).
@@ -63,6 +93,16 @@
 - **Quais são as dores?** A dificuldade em interpretar dados técnicos excessivamente complexos ou apresentados de forma pouco visual.
 - **Quais são as necessidades?** Visualizações claras (lado a lado) entre a imagem original e o mapa segmentado para facilitar a comunicação com leigos.
 
+### Contexto de Uso
+- **Cenário Físico:** Uma sala de reuniões da prefeitura, com um projetor exibindo dados para uma comissão de planejamento urbano.
+- **Narrativa:** Cláudia apresenta o plano de zoneamento para os próximos cinco anos. O ambiente é formal e exige clareza visual para convencer outros secretários. Ela não opera a ferramenta, mas utiliza os resultados exportados: o mapa temático colorido onde o Vermelho (Urbano) e o Verde Escuro (Vegetação Densa) criam um contraste óbvio sobre onde o crescimento deve ser limitado. Ela aponta para os gráficos de pizza gerados pela interface, usando o dado de "13,2 km² de área monitorada" para justificar novos investimentos em preservação na região serrana.
+
+### Jornada de Usuário
+- **Objetivo:** Convencer a comissão de planejamento sobre a necessidade de novas zonas de preservação.
+- **Ações:** Solicita ao técnico que abra o GeoSegment no projetor da sala -> Aponta para o contraste entre o vermelho (Urbano) e o verde (Vegetação Densa) -> Destaca o gráfico de áreas totais monitoradas (13,2 km²).
+- **Pensamentos:** "Este mapa torna o problema do crescimento urbano óbvio para qualquer leigo." "Os dados automáticos dão mais autoridade à minha proposta".
+- **Emoções:** Preocupação com o zoneamento -> Determinação -> Senso de dever cumprido ao ver os membros da comissão entenderem os dados visuais.
+
 ## 5. Sr. Benedito (Pequeno Proprietário de Terra)
 - **Status:** Persona Extrema (Usuário com perfil de baixa literacia tecnológica e grande impacto emocional pelo produto).
 - **Identidade:** 60 anos, produtor rural na região serrana de Petrópolis.
@@ -78,3 +118,13 @@
 - **O que fala e faz?** Cuida de sua plantação; busca o sindicato rural para entender seus direitos e a demarcação de sua área de agricultura.
 - **Quais são as dores?** A exclusão digital e a insegurança jurídica causada por processos de classificação automáticos que ele não pode contestar facilmente.
 - **Quais são as necessidades?** Transparência e clareza nos mapas, garantindo que as classes (como agricultura vs. vegetação) sejam distinguidas corretamente.
+
+### Contexto de Uso
+- **Cenário Físico:** Uma área rural na APA de Petrópolis. Ele está sentado na varanda de sua casa, tentando usar um tablet com conexão 4G instável.
+- **Narrativa:** Preocupado com notícias sobre multas ambientais, o Sr. Benedito pede ao neto para mostrar "como o governo está vendo a terra dele". O contexto social é de desconfiança e ansiedade em relação à tecnologia automática. Ele observa o mapa gerado e busca identificar sua plantação de Agricultura (Amarelo). Para ele, o sucesso do uso é o sentimento de alívio ao perceber que o sistema não confundiu sua área de cultivo com mata nativa preservada, garantindo que ele está em conformidade com as regras da unidade de conservação.
+
+### Jornada de Usuário
+- **Objetivo:** Conferir se sua área de plantio não está sendo confundida com floresta nativa pelo sistema do governo.
+- **Ações:** Pede ao neto para acessar o site -> Observa a tela enquanto a imagem de sua fazenda é processada -> Busca a cor amarela (Agricultura) no mapa segmentado.
+- **Pensamentos:** "Espero que esse computador saiba a diferença entre o meu pomar e a mata fechada." "Não quero receber uma multa por algo que eu não fiz".
+- **Emoções:** Desconfiança e medo da tecnologia -> Tensão -> Tranquilidade ao ver que o "Amarelo" respeitou os limites da sua lavoura.
