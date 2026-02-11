@@ -39,7 +39,7 @@ Características gerais:
 ## GeoSegment – Pontos Fortes
 - Segmentação automática via Deep Learning
 - Identificação de detalhes finos (edificações, fragmentos de vegetação)
-- Alta resolução espacial
+- Consegue Trabalhar com Alta resolução espacial
 - Aplicação leve com fluxo encapsulado
 - Modelo AIaaS (processamento remoto)
 - Interface focada em tarefa única
@@ -95,14 +95,14 @@ Características gerais:
 ---
 
 ## MapBiomas
-![INSERIR IMAGEM DO MAPBIOMAS AQUI]
+![mapbiomas](https://github.com/user-attachments/assets/9fd5e2f7-3e83-486b-b1b2-0dbc4b11c3c0)
 
 *Figura Z – Dashboard web do MapBiomas para visualização temática.*
 
 ---
 
 ## Brazil Data Cube / TerraCollect
-![INSERIR IMAGEM DO BDC AQUI]
+![info-cube-bdc](https://github.com/user-attachments/assets/a6ab5504-d5a5-4f88-9d34-bf0362f8aac8)
 
 *Figura W – Portal web do Brazil Data Cube.*
 
