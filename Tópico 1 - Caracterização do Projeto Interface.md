@@ -26,11 +26,11 @@ lrossi@fei.edu.br
 
 ## 5. Objetivo do Trabalho
 
-O objetivo central é fornecer uma ferramenta de suporte à decisão e gestão territorial, tornando o processo de análise ambiental mais rápido, preciso e escalável do que o mapeamento manual tradicional.
+O objetivo central é fornecer uma ferramenta de suporte à decisão e gestão territorial, tornando o processo de análise ambiental mais rápido, preciso e escalável do que o mapeamento manual tradicional
 
 ## 6. Produto Final
 
-O produto final entregue é uma plataforma web chamada GeoSegment, que utiliza inteligência artificial para realizar o mapeamento automático do uso e cobertura do solo.
+O produto final entregue é uma plataforma web chamada GeoSegment, que utiliza inteligência artificial para realizar o mapeamento automático do uso e cobertura do solo
 
 ## 7. Usuário Final
 
