@@ -12,9 +12,9 @@
 
 ## 2. Título Original do TCC
 
-Ferramenta para Automatizar a Segmentação Semântica de Imagens Aéreas para Mapeamento Ambiental
+Segmentação Semântica por Aprendizado Profundo para Mapeamento de Uso e Cobertura do Solo
 
-Novo título: Segmentação Semântica por Aprendizado Profundo para Mapeamento de Uso e Cobertura do Solo
+Título antigo: Ferramenta para Automatizar a Segmentação Semântica de Imagens Aéreas para Mapeamento Ambiental
 
 ## 3. Orientador(a)
 
@@ -32,11 +32,11 @@ O objetivo central é fornecer uma ferramenta de suporte à decisão e gestão t
 
 ## 6. Produto Final
 
-O produto final entregue é uma rede neural treinada para realizar o mapeamento automático do uso e cobertura do solo, exposta em uma interface web intuitiva.
+O produto final entregue é uma rede neural treinada para realizar o mapeamento (segmentação semântica) do uso e cobertura do solo, exposta em uma interface web intuitiva.
 
 ## 7. Usuário Final
 
-Pesquisadores e especialistas ambientais
+Pesquisadores e especialistas ambientais.
 
 ## 8. Benefícios ao Usuário
 
@@ -66,8 +66,38 @@ Pesquisadores e especialistas ambientais
 
 ## 11. Contexto de Uso da Aplicação (IHC)
 
-- Ambiente de utilização: Normalmente dentro de escritórios, somente em poucos casos em ambientes rurais
-- Condições de uso: Pelo fato de o ambiente de utilização ser usualmente em escritórios, suas condições são um ambiente controlado, com poucos ruídos, sem tripidações e com alta luminosidade
-- Dispositivos envolvidos: Desktops com acesso a internet
-- Limitações dos usuários: Somente em caso de falta de internet e luz
-- Tipo de interação esperada: Interação tradicional de desktop
+### Ambiente de utilização:
+A aplicação será utilizada predominantemente em ambientes internos, como escritórios corporativos. Em casos específicos, poderá ser utilizada em ambientes rurais, desde que haja infraestrutura tecnológica disponível.
+
+### Condições de uso:
+O uso ocorre, em geral, em ambientes controlados, caracterizados por:
+
+- Baixo nível de ruído
+- Boa iluminação
+- Ausência de vibrações ou movimentações intensas
+- Postos de trabalho organizados (mesa, cadeira, monitor)
+
+Em ambientes rurais, podem ocorrer variações como instabilidade de conexão ou iluminação.
+
+### Dispositivos envolvidos:
+- Computadores desktop
+- Acesso à internet
+- Navegadores web atualizados
+- Teclado e mouse como principais dispositivos de entrada
+
+### Limitações dos usuários:
+Usuários com conhecimentos básicos a intermediários em informática
+
+Possíveis limitações:
+
+- Falta de conexão com a internet
+- Quedas de energia
+- Diferentes níveis de familiaridade com sistemas digitais
+
+### Tipo de interação esperada:
+Interação tradicional de desktop, baseada em:
+
+- Interface gráfica (GUI)
+- Uso de menus, botões e formulários
+- Navegação por mouse e teclado
+- Feedback visual imediato (mensagens, alertas, confirmações)
