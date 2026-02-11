@@ -101,7 +101,6 @@ Deslocar o controle técnico do usuário para o provedor de serviço, reduzindo 
 - **Interação Guiada por Filtros e Dashboards:** seleção de áreas de interesse, períodos temporais e categorias temáticas.  
 - **Processamento Automatizado:** algoritmos de classificação, segmentação e análise preditiva operando no backend, invisíveis ao usuário.  
 - **Feedback Visual Imediato:** mapas, gráficos e relatórios gerados em tempo real, com indicadores de qualidade e estatísticas resumidas.  
-- **Integração com Dados em Larga Escala:** consumo de datasets orbitais, cadastrais ou socioambientais sem configuração complexa.  
 - **Minimização de Configuração Técnica:** o usuário foca na exploração de resultados e tomada de decisão, enquanto a infraestrutura gerencia processamento e armazenamento.  
 - **Interação Orientada à Tarefa:** workflows simplificados que priorizam objetivos específicos (ex.: monitoramento de cobertura do solo, detecção de desmatamento, análise temporal de áreas protegidas).
 
