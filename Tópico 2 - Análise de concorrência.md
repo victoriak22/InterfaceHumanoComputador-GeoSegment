@@ -10,15 +10,15 @@
 - **Competidores Tradicionais (Pontos Fracos):** Exigem instalação local, infraestrutura de hardware dedicada e elevado conhecimento técnico do usuário. O processamento manual de grandes volumes de dados é inviável nessas ferramentas.
 
 ## 3. Avaliação da Experiência do Usuário (UX)
-- Diferencial do GeoSegment: Enquanto ferramentas como QGIS são complexas e genéricas, o GeoSegment foi desenhado para ser intuitivo, permitindo que o analista obtenha resultados (mapas e estatísticas) sem rodar códigos ou ajustar configurações complexas.
-- Acessibilidade: Por ser baseado no modelo AIaaS (Inteligência Artificial como Serviço), o processamento ocorre em servidores remotos, tornando-o acessível via navegador em qualquer hardware básico.
+- **Diferencial do GeoSegment:** Enquanto ferramentas como QGIS são complexas e genéricas, o GeoSegment foi desenhado para ser intuitivo, permitindo que o analista obtenha resultados (mapas e estatísticas) sem rodar códigos ou ajustar configurações complexas.
+- **Acessibilidade:** Por ser baseado no modelo AIaaS (Inteligência Artificial como Serviço), o processamento ocorre em servidores remotos, tornando-o acessível via navegador em qualquer hardware básico.
 
 ## 4. Identificação de Padrões e Tendências de Mercado
-- Tendência SaaS/AIaaS: Há um movimento claro de transição do geoprocessamento tradicional para plataformas web que integram serviços em nuvem e modelos de aprendizado de máquina. O GeoSegment está alinhado a essa tendência ao oferecer o modelo como um serviço via API.
+- **Tendência SaaS/AIaaS:** Há um movimento claro de transição do geoprocessamento tradicional para plataformas web que integram serviços em nuvem e modelos de aprendizado de máquina. O GeoSegment está alinhado a essa tendência ao oferecer o modelo como um serviço via API.
 
 ## 5. Recomendações e Diferenciação
-- Oportunidade de Diferenciação: O GeoSegment destaca-se pela especialização em alta resolução e pela agilidade de resposta para o usuário final.
-- Pontos de Melhoria (Mitigação de Fraquezas): Para competir com soluções mais robustas, o trabalho recomenda futuras evoluções como:
-    ◦ Expandir o dataset para aumentar a generalização além da APA de Petrópolis.
-    ◦ Implementar o armazenamento de histórico de inferências.
-    ◦ Incorporar métricas de avaliação mais finas, como a matriz de confusão e Boundary IoU, para validar a precisão frente aos especialistas.
+- **Oportunidade de Diferenciação:** O GeoSegment destaca-se pela especialização em alta resolução e pela agilidade de resposta para o usuário final.
+- **Pontos de Melhoria (Mitigação de Fraquezas):** Para competir com soluções mais robustas, o trabalho recomenda futuras evoluções como:
+    - Expandir o dataset para aumentar a generalização além da APA de Petrópolis.
+    - Implementar o armazenamento de histórico de inferências.
+    - Incorporar métricas de avaliação mais finas, como a matriz de confusão e Boundary IoU, para validar a precisão frente aos especialistas.
