@@ -83,35 +83,35 @@ Características gerais:
 ## QGIS
 <img width="1654" height="771" alt="qgis" src="https://github.com/user-attachments/assets/b797921d-3fba-4e5d-acc2-aac9d395ff93" />
 
-*Figura X – Interface principal do QGIS com múltiplos painéis e barras de ferramentas.*
+*Figura 1 – Interface principal do QGIS com múltiplos painéis e barras de ferramentas.*
 
 ---
 
 ## ArcGIS Pro
 <img width="648" height="414" alt="arcgis" src="https://github.com/user-attachments/assets/9bc4210e-78d8-4406-a034-c5deb100a8c1" />
 
-*Figura Y – Interface do ArcGIS Pro com Ribbon e painel de camadas.*
+*Figura 2 – Interface do ArcGIS Pro com Ribbon e painel de camadas.*
 
 ---
 
 ## MapBiomas
 ![mapbiomas](https://github.com/user-attachments/assets/9fd5e2f7-3e83-486b-b1b2-0dbc4b11c3c0)
 
-*Figura Z – Dashboard web do MapBiomas para visualização temática.*
+*Figura 3 – Dashboard web do MapBiomas para visualização temática.*
 
 ---
 
 ## Brazil Data Cube / TerraCollect
 ![info-cube-bdc](https://github.com/user-attachments/assets/a6ab5504-d5a5-4f88-9d34-bf0362f8aac8)
 
-*Figura W – Portal web do Brazil Data Cube.*
+*Figura 4 – Portal web do Brazil Data Cube.*
 
 ---
 
 ## GeoSegment
-![INSERIR IMAGEM DO GEOSEGMENT AQUI]
+<img width="1040" height="677" alt="image" src="https://github.com/user-attachments/assets/4c8ea15f-c9b3-4da3-8acf-6855014afdd6" />
 
-*Figura K – Interface simplificada e orientada à tarefa do GeoSegment.*
+*Figura 5 – Interface simplificada e orientada à tarefa do GeoSegment.*
 
 ---
 
@@ -167,7 +167,6 @@ Impacto:
 - Baixa carga cognitiva
 - Redução de decisões técnicas
 - Automação do processamento
-- Foco na tomada de decisão
 
 ---
 
