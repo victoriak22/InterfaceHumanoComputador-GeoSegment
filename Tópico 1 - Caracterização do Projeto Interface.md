@@ -14,6 +14,8 @@
 
 Ferramenta para Automatizar a Segmentação Semântica de Imagens Aéreas para Mapeamento Ambiental
 
+Novo título: Segmentação Semântica por Aprendizado Profundo para Mapeamento de Uso e Cobertura do Solo
+
 ## 3. Orientador(a)
 
 Luciano Rossi <br>
@@ -30,7 +32,7 @@ O objetivo central é fornecer uma ferramenta de suporte à decisão e gestão t
 
 ## 6. Produto Final
 
-O produto final entregue é uma plataforma web chamada GeoSegment, que utiliza inteligência artificial para realizar o mapeamento automático do uso e cobertura do solo
+O produto final entregue é uma rede neural treinada para realizar o mapeamento automático do uso e cobertura do solo, exposta em uma interface web intuitiva.
 
 ## 7. Usuário Final
 
@@ -38,10 +40,9 @@ Pesquisadores e especialistas ambientais
 
 ## 8. Benefícios ao Usuário
 
-- Fácil adaptação a interface ao público-alvo 
-- Processo acelerado de segmentação
-- Confiabilidade dos resultados
-- Apoio em tomadas de decisões
+- Agilidade no processo de segmentação;
+- Confiabilidade dos resultados;
+- Tomadas de decisões mais assertivas;
 
 ## 9. Funcionalidades da Ferramenta (Visão do Usuário)
 
@@ -49,7 +50,7 @@ Pesquisadores e especialistas ambientais
 - Seleção de redes neurais
 - Informações técnicas (ex.: qual rede neural está sendo utilizada)
 - Geração de insights sobre a imagem segmentada da área
-- Painéis e dashboards que apoiam tomadas de decisões ambientais
+- Painéis e dashboards que mostram informações e características das áreas segmentadas
 - Comparação temporal de resultados
 
 ## 10. Tecnologias e Ferramentas Computacionais
