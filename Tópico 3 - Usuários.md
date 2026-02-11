@@ -35,21 +35,21 @@
 - **Relacionamentos:** Colabora com órgãos governamentais para validação técnica de ferramentas de IA.
 
 ### Mapa de Empatia
-- **O que pensa e sente?** Focada na precisão científica; questiona se a arquitetura DeepLabV3+ (V2) é realmente superior à U-Net (V0) em classes desbalanceadas.
-- **O que vê?** Gráficos de mIoU e matrizes de confusão; analisa detalhes de bordas entre classes como solo exposto e rocha.
-- **O que ouve?** Discussões acadêmicas sobre funções de perda como Focal Loss e Tversky Loss para lidar com amostras reduzidas.
+- **O que pensa e sente?** Focada na precisão científica; questiona se a arquitetura utilizada respodende com resuktados plausíveis.
+- **O que vê?** Gráficos de acuracidade e metricas que comporvam o resultado obtido; analisa detalhes de bordas entre classes como solo exposto e rocha.
+- **O que ouve?** Discussões acadêmicas sobre funções de perda com amostras reduzidas.
 - **O que fala e faz?** Escreve artigos científicos e testa hiperparâmetros; busca reprodutibilidade no fluxo de treinamento.
-- **Quais são as dores?** O tamanho limitado do dataset (35 imagens) que pode dificultar a generalização do modelo para outras regiões.
-- **Quais são as necessidades?** Acesso a métricas detalhadas (IoU por classe) e transparência nos processos de aumento de dados e validação cruzada.
+- **Quais são as dores?** O tamanho limitado do dataset que pode dificultar a generalização do modelo para outras regiões.
+- **Quais são as necessidades?** Acesso a métricas detalhadas (acuracidade por classe) e transparência nos processos de aumento de dados e validação cruzada.
 
 ### Contexto de Uso
 - **Cenário Físico:** Um laboratório acadêmico silencioso, com iluminação controlada para evitar reflexos nas telas. Ela utiliza uma estação de trabalho de alto desempenho.
-- **Narrativa:** Helena está revisando os resultados do modelo V2 (DeepLabV3+) para um artigo científico. Ela analisa o comportamento do modelo em regiões de bordas e transições abruptas. No contexto social, ela interage com alunos de pós-graduação, discutindo por que o mIoU de 73,81% da V2 é preferível para a interface web devido à menor latência de inferência, apesar de ser ligeiramente inferior ao benchmark V0. Ela utiliza a interface para realizar testes de estresse com patches de imagens que possuem classes desbalanceadas, como Água e Rocha.
+- **Narrativa:** Helena está revisando os resultados do modelo DeepLabV3+ para um artigo científico. Ela analisa o comportamento do modelo em regiões de bordas e transições abruptas. No contexto social, ela interage com alunos de pós-graduação, discutindo por que o mIoU de 73,81% da DeepLabV3+ é preferível para a interface web devido à menor latência de inferência, apesar de ser ligeiramente inferior ao benchmark . Ela utiliza a interface para realizar testes de estresse com patches de imagens que possuem classes desbalanceadas, como Água e Rocha.
 
 ### Jornada de Usuário
-- **Objetivo:** Validar se a arquitetura DeepLabV3+ com backbone ResNet-101 (V2) mantém a consistência em classes minoritárias como "Água".
+- **Objetivo:** Validar se a arquitetura DeepLabV3+ com backbone ResNet-101 mantém a consistência em classes minoritárias como "Água".
 - **Ações:** Abre a plataforma -> Sobe amostras específicas com presença de corpos d'água e rocha -> Observa a segmentação em nível de pixel -> Compara os percentuais gerados com seus dados de referência.
-- **Pensamentos:** "Será que o Combo Loss da V2 realmente penalizou os erros nas classes desbalanceadas?" "A latência de inferência parece menor que a da V0".
+- **Pensamentos:** "Será que o Combo Loss da DeepLabV3+ realmente penalizou os erros nas classes desbalanceadas?" "A latência de inferência parece menor que a da U-Net".
 - **Emoções:** Ceticismo científico -> Concentração profunda -> Satisfação ao notar que o refinamento de bordas está superior às versões anteriores.
 
 ## 3. Felipe Antunes (Consultor Ambiental de Empresa Privada)
