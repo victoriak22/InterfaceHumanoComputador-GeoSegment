@@ -1,130 +1,143 @@
-# Personas
+# Personas, Mapas de Empatia, Contexto de Uso e Jornada de Usuário
 
-## 1. Ricardo Mendes (Analista Ambiental)
-- **Status:** Persona Primária.
-- **Identidade:** 42 anos, geógrafo especializado em conservação.
-- **Habilidades:** Alta especialidade no domínio ambiental, mas experiência moderada com novas tecnologias de IA.
-- **Objetivos:** Realizar o monitoramento ágil da APA de Petrópolis para identificar núcleos urbanos em expansão e fragmentos de vegetação nativa.
-- **Tarefas:** Submeter imagens aéreas de alta resolução e exportar estatísticas de proporção por classe para relatórios de fiscalização.
-- **Expectativas:** Que a ferramenta seja intuitiva e dispense a instalação de softwares pesados como QGIS.
+---
 
-### Mapa de Empatia
-- **O que pensa e sente?** Sente-se sobrecarregado pelo volume de dados; acredita que o mapeamento manual é inviável em larga escala e precisa de agilidade para fiscalização.
-- **O que vê?** Imagens aéreas de 30 cm/px com desafios como nuvens e sombras; vê núcleos urbanos avançando sobre a vegetação nativa na APA de Petrópolis.
-- **O que ouve?** Colegas discutindo a necessidade de métricas de acurácia mais rigorosas; ouve sobre o potencial da IA para reduzir o trabalho braçal.
-- **O que fala e faz?** Elabora relatórios de gestão territorial e utiliza softwares de geoprocessamento tradicionais, mas busca soluções mais leves.
-- **Quais são as dores?** A dificuldade técnica de instalar e configurar modelos complexos; a demora no processamento de imagens de alta resolução.
-- **Quais são as necessidades?** Uma interface intuitiva onde possa apenas enviar a imagem e receber o mapa e as estatísticas de área.
+## 1. Ricardo Mendes (Analista Ambiental do ICMBio) — Persona Primária
 
-### Contexto de Uso
-- **Cenário Físico:** Ricardo trabalha em uma sala arejada na sede do ICMBio, sentado em uma mesa ergonômica com dois monitores grandes para facilitar a visualização de detalhes espaciais.
-- **Narrativa:** É manhã de segunda-feira e Ricardo precisa validar uma denúncia de desmatamento na APA de Petrópolis. Ele abre o navegador e acessa o GeoSegment. O ambiente social é de foco; ele não quer lidar com a complexidade técnica de softwares locais como o QGIS. Ricardo faz o upload de uma imagem de 30 cm/px e, enquanto toma seu café, observa a barra de progresso. Ao ver o mapa segmentado lado a lado com a imagem original, ele identifica rapidamente que uma área de Vegetação Densa foi convertida em Solo Exposto, confirmando a infração através das estatísticas geradas automaticamente pela plataforma.
-
-### Jornada de Usuário
-- **Objetivo:** Identificar rapidamente um possível desmatamento na APA de Petrópolis para gerar um auto de infração.
-- **Ações:** Acessa o navegador -> Entra no site do GeoSegment -> Faz o upload da imagem de alta resolução (30 cm/px) -> Clica em "Processar Segmentação" -> Analisa o mapa temático comparando-o com a imagem original.
-- **Pensamentos:** "Preciso que esse modelo seja preciso nas bordas da vegetação densa." "Ainda bem que não precisei configurar o QGIS para isso".
-- **Emoções:** Ansiedade pelo prazo de fiscalização -> Curiosidade durante o processamento -> Alívio e confiança ao ver a classe "Solo Exposto" claramente identificada onde antes havia floresta.
-
-## 2. Dra. Helena Silveira (Pesquisadora Acadêmica)
-- **Status:** Persona Secundária.
-- **Identidade:** 35 anos, doutora em Visão Computacional.
-- **Habilidades:** Especialista em Aprendizado Profundo e arquiteturas encoder-decoder.
-- **Objetivos:** Avaliar a eficácia do modelo DeepLabV3+ em comparação com outras métricas, como a mIoU de referência de 77,75%.
-- **Tarefas:** Analisar a qualidade da segmentação em classes desbalanceadas e propor melhorias técnicas no treinamento do modelo.
-- **Relacionamentos:** Colabora com órgãos governamentais para validação técnica de ferramentas de IA.
+### Perfil da Persona
+- **Perfil:** Geógrafo de 42 anos focado em gestão territorial e fiscalização na APA de Petrópolis.  
+- **Objetivos:** Realizar o mapeamento automático do uso do solo para identificar desmatamentos ou expansões urbanas irregulares sem precisar de processamento manual.  
+- **Necessidades:** Uma interface web intuitiva que forneça mapas temáticos e proporções estatísticas por classe de forma rápida.
 
 ### Mapa de Empatia
-- **O que pensa e sente?** Focada na precisão científica; questiona se a arquitetura utilizada respodende com resuktados plausíveis.
-- **O que vê?** Gráficos de acuracidade e metricas que comporvam o resultado obtido; analisa detalhes de bordas entre classes como solo exposto e rocha.
-- **O que ouve?** Discussões acadêmicas sobre funções de perda com amostras reduzidas.
-- **O que fala e faz?** Escreve artigos científicos e testa hiperparâmetros; busca reprodutibilidade no fluxo de treinamento.
-- **Quais são as dores?** O tamanho limitado do dataset que pode dificultar a generalização do modelo para outras regiões.
-- **Quais são as necessidades?** Acesso a métricas detalhadas (acuracidade por classe) e transparência nos processos de aumento de dados e validação cruzada.
+- **O que pensa e sente?** Sente que o processamento manual de imagens de alta resolução é inviável em larga escala; busca agilidade para apoiar ações de manejo.  
+- **O que vê?** Imagens aéreas de 30 cm/px revelando núcleos urbanos em expansão e fragmentos de vegetação nativa na unidade de conservação.  
+- **O que ouve?** Pressões do ICMBio por monitoramento eficiente e decisões embasadas em dados geoespaciais.  
+- **O que fala e faz?** Elabora planos de fiscalização e gestão territorial; busca uma ferramenta que dispense instalação de softwares pesados como QGIS.  
+- **Quais são as dores?** A dependência de infraestrutura dedicada e o tempo gasto em anotações manuais que retardam a tomada de decisão.  
+- **Quais são as necessidades?** Uma interface web intuitiva para visualizar mapas temáticos e consultar proporções de cobertura do solo de forma automática.
 
-### Contexto de Uso
-- **Cenário Físico:** Um laboratório acadêmico silencioso, com iluminação controlada para evitar reflexos nas telas. Ela utiliza uma estação de trabalho de alto desempenho.
-- **Narrativa:** Helena está revisando os resultados do modelo DeepLabV3+ para um artigo científico. Ela analisa o comportamento do modelo em regiões de bordas e transições abruptas. No contexto social, ela interage com alunos de pós-graduação, discutindo por que o mIoU de 73,81% da DeepLabV3+ é preferível para a interface web devido à menor latência de inferência, apesar de ser ligeiramente inferior ao benchmark . Ela utiliza a interface para realizar testes de estresse com patches de imagens que possuem classes desbalanceadas, como Água e Rocha.
+### Contexto de Uso — Gestão Territorial
+- **Cenário Físico:** Escritório do ICMBio em Petrópolis, com iluminação natural e mapas da unidade de conservação nas paredes. Utiliza um computador desktop padrão conectado à internet.  
+- **Narrativa:** Sob pressão para monitorar a expansão de núcleos urbanos na APA de Petrópolis, Ricardo acessa o GeoSegment para processar imagens aéreas de 30 cm/px. O ambiente institucional exige respostas rápidas. A ferramenta em nuvem (AIaaS) permite gerar mapas coloridos e proporções de área por classe sem instalar softwares pesados como ArcGIS ou realizar anotações manuais demoradas.
 
-### Jornada de Usuário
-- **Objetivo:** Validar se a arquitetura DeepLabV3+ com backbone ResNet-101 mantém a consistência em classes minoritárias como "Água".
-- **Ações:** Abre a plataforma -> Sobe amostras específicas com presença de corpos d'água e rocha -> Observa a segmentação em nível de pixel -> Compara os percentuais gerados com seus dados de referência.
-- **Pensamentos:** "Será que o Combo Loss da DeepLabV3+ realmente penalizou os erros nas classes desbalanceadas?" "A latência de inferência parece menor que a da U-Net".
-- **Emoções:** Ceticismo científico -> Concentração profunda -> Satisfação ao notar que o refinamento de bordas está superior às versões anteriores.
+### Jornada de Usuário — Fiscalização
+- **Objetivo:** Identificar rapidamente mudanças no uso do solo na APA de Petrópolis para embasar ações de manejo.  
+- **Ações:** Abre o navegador → Carrega uma imagem de alta resolução (30 cm/px) → Solicita a segmentação automática → Analisa a visualização lado a lado (Original vs. Segmentado).  
+- **Pensamentos:**  
+  - "Preciso desses dados estatísticos agora para o relatório de fiscalização."  
+  - "Ainda bem que não preciso configurar o QGIS para processar esse volume de dados."  
+- **Emoções:** Urgência → Expectativa durante o processamento → Alívio e segurança profissional ao obter o mapa temático.
 
-## 3. Felipe Antunes (Consultor Ambiental de Empresa Privada)
-- **Status:** Persona Secundária.
-- **Identidade:** 29 anos, trabalha em uma concessionária de rodovias (ex: Ecorodovias).
-- **Objetivos:** Obter mapas temáticos rápidos para licenciamento ambiental e análise de impacto em áreas próximas a estradas.
-- **Requisitos:** Precisa de escalabilidade para processar várias imagens de alta resolução em curto espaço de tempo.
-- **Expectativa:** Que o modelo identifique com precisão as áreas de solo exposto e vegetação esparsa para monitorar obras.
+---
 
-### Mapa de Empatia
-- **O que pensa e sente?** Precisa entregar resultados precisos para clientes privados no menor tempo possível para garantir licenciamentos ambientais.
-- **O que vê?** A necessidade de identificar fragmentos de vegetação e áreas urbanas em imagens de alta resolução para obras de infraestrutura.
-- **O que ouve?** Clientes pressionando por laudos; tendências de mercado sobre o uso de serviços AIaaS (IA como serviço) em nuvem.
-- **O que fala e faz?** Analisa áreas de impacto ambiental e exporta mapas temáticos para apresentações comerciais.
-- **Quais são as dores?** O alto custo de licenças de softwares como ArcGIS e a necessidade de hardware potente para processamento local.
-- **Quais são as necessidades?** Uma ferramenta web estável que não exija instalação e que forneça proporções estatísticas rápidas por classe.
+## 2. Dra. Helena Silveira (Pesquisadora Acadêmica) — Persona Primária
 
-### Contexto de Uso
-- **Cenário Físico:** Escritório moderno de uma grande empresa (ex: Ecorodovias), em um ambiente agitado com telefones tocando e prazos curtos.
-- **Narrativa:** Felipe precisa finalizar um laudo de impacto ambiental para uma nova obra viária até o fim do dia. Ele utiliza um notebook corporativo conectado ao Wi-Fi da empresa. O contexto é de alta pressão por produtividade. Em vez de esperar dias pelo processamento de uma equipe de geoprocessamento externa, ele mesmo sobe os recortes da área de interesse no GeoSegment. A facilidade de obter as proporções por classe (como área urbana vs. vegetação esparsa) permite que ele preencha as tabelas do relatório técnico de forma instantânea, garantindo a entrega no prazo.
-
-### Jornada de Usuário
-- **Objetivo:** Obter dados estatísticos de ocupação urbana para um laudo de licenciamento de rodovias.
-- **Ações:** Abre o notebook no meio de uma reunião -> Acessa a API do GeoSegment -> Faz o upload do recorte da área da obra -> Copia os valores percentuais das classes "Urbano" e "Vegetação Esparsa" diretamente para sua planilha.
-- **Pensamentos:** "Se eu tivesse que esperar o setor de geoprocessamento processar isso, levaria dias." "O visual desse mapa colorido vai impressionar o cliente".
-- **Emoções:** Estresse pela urgência do laudo -> Pressa -> Entusiasmo com a agilidade da entrega dos resultados via web.
-
-## 4. Cláudia Torres (Gestora de Políticas Públicas / Governo)
-- **Status:** Outro Stakeholder (Interessado no resultado, mas não opera a ferramenta diariamente).
-- **Identidade:** 50 anos, Secretária de Meio Ambiente.
-- **Habilidades:** Baixa experiência técnica com ferramentas de geoprocessamento.
-- **Objetivos:** Utilizar os dados agregados (estatísticas de uso do solo) para justificar a criação de novas leis de zoneamento urbano.
-- **Dores (Mapa de Empatia):** Sente dificuldade em explicar dados técnicos complexos para a população e outros políticos.
-- **Necessidades:** Mapas coloridos e visualmente claros que facilitem a tomada de decisão política.
+### Perfil da Persona
+- **Perfil:** Doutora em Visão Computacional, 35 anos, interessada na validade científica dos modelos de IA.  
+- **Objetivos:** Comparar o desempenho das arquiteturas (V0, V1 e V2) e validar métricas como mIoU e IoU por classe.  
+- **Necessidades:** Acesso a resultados de segmentação em nível de pixel e compreensão de como o modelo lida com classes desbalanceadas e refinamento de bordas.
 
 ### Mapa de Empatia
-- **O que pensa e sente?** Preocupa-se com o planejamento urbano sustentável; quer dados confiáveis para embasar decisões políticas e leis de zoneamento.
-- **O que vê?** Mapas coloridos que facilitam a visualização da cobertura vegetal e das áreas de preservação.
-- **O que ouve?** Demandas da sociedade por preservação e pressões para o desenvolvimento urbano na região serrana.
-- **O que fala e faz?** Participa de reuniões de conselhos ambientais; utiliza os percentuais de cada classe de solo para justificar investimentos.
-- **Quais são as dores?** A dificuldade em interpretar dados técnicos excessivamente complexos ou apresentados de forma pouco visual.
-- **Quais são as necessidades?** Visualizações claras (lado a lado) entre a imagem original e o mapa segmentado para facilitar a comunicação com leigos.
+- **O que pensa e sente?** Preocupa-se com o rigor científico; questiona se o DeepLabV3+ mantém precisão comparável ao benchmark V0.  
+- **O que vê?** Gráficos de desempenho, arquiteturas encoder-decoder e a distribuição de classes nos folds de validação cruzada.  
+- **O que ouve?** Discussões sobre AIaaS e métricas avançadas como Boundary IoU.  
+- **O que fala e faz?** Compara sistematicamente modelos (V0, V1 e V2) e analisa o impacto das funções de perda (Focal Loss + Dice Loss).  
+- **Quais são as dores?** Desbalanceamento severo de classes minoritárias como Água e Rocha em dataset reduzido.  
+- **Quais são as necessidades?** Métricas detalhadas por classe e experimentos reproduzíveis.
 
-### Contexto de Uso
-- **Cenário Físico:** Uma sala de reuniões da prefeitura, com um projetor exibindo dados para uma comissão de planejamento urbano.
-- **Narrativa:** Cláudia apresenta o plano de zoneamento para os próximos cinco anos. O ambiente é formal e exige clareza visual para convencer outros secretários. Ela não opera a ferramenta, mas utiliza os resultados exportados: o mapa temático colorido onde o Vermelho (Urbano) e o Verde Escuro (Vegetação Densa) criam um contraste óbvio sobre onde o crescimento deve ser limitado. Ela aponta para os gráficos de pizza gerados pela interface, usando o dado de "13,2 km² de área monitorada" para justificar novos investimentos em preservação na região serrana.
+### Contexto de Uso — Validação de Modelos
+- **Cenário Físico:** Laboratório de computação silencioso com estação de trabalho e dois monitores de alta fidelidade cromática.  
+- **Narrativa:** Helena analisa tecnicamente as versões V0, V1 e V2 do sistema. Precisa justificar o uso do modelo V2 (DeepLabV3+) mesmo com mIoU de 73,81% inferior ao benchmark V0 (77,75%). Ela examina erros em classes desbalanceadas e avalia se a função de perda composta melhorou o refinamento de bordas.
 
-### Jornada de Usuário
-- **Objetivo:** Convencer a comissão de planejamento sobre a necessidade de novas zonas de preservação.
-- **Ações:** Solicita ao técnico que abra o GeoSegment no projetor da sala -> Aponta para o contraste entre o vermelho (Urbano) e o verde (Vegetação Densa) -> Destaca o gráfico de áreas totais monitoradas (13,2 km²).
-- **Pensamentos:** "Este mapa torna o problema do crescimento urbano óbvio para qualquer leigo." "Os dados automáticos dão mais autoridade à minha proposta".
-- **Emoções:** Preocupação com o zoneamento -> Determinação -> Senso de dever cumprido ao ver os membros da comissão entenderem os dados visuais.
+### Jornada de Usuário — Validação Técnica
+- **Objetivo:** Validar cientificamente o modelo V2 para publicação de resultados.  
+- **Ações:** Acessa a interface → Envia patches com Água e Rocha → Analisa segmentação pixel a pixel → Compara resultados com métricas de referência.  
+- **Pensamentos:**  
+  - "Será que a arquitetura mais leve compensa a pequena perda de mIoU?"  
+  - "O refinamento de bordas parece melhor."  
+- **Emoções:** Ceticismo científico → Concentração profunda → Confiança no modelo.
 
-## 5. Sr. Benedito (Pequeno Proprietário de Terra)
-- **Status:** Persona Extrema (Usuário com perfil de baixa literacia tecnológica e grande impacto emocional pelo produto).
-- **Identidade:** 60 anos, produtor rural na região serrana de Petrópolis.
-- **Habilidades:** Leigo em tecnologia; utiliza apenas ferramentas básicas de comunicação.
-- **Relacionamento com Tecnologia:** Baixa frequência de uso; sente medo de ser prejudicado por análises automáticas incorretas.
-- **Expectativas:** Deseja entender se sua área de agricultura está sendo classificada corretamente ou se há risco de multa por invasão de mata nativa.
-- **Dores:** Insegurança jurídica em relação à demarcação de sua propriedade.
+---
+
+## 3. Felipe Antunes (Consultor Ambiental Privado) — Persona Secundária
+
+### Perfil da Persona
+- **Perfil:** Consultor ambiental de 29 anos que trabalha para empresas de infraestrutura.  
+- **Objetivos:** Obter laudos rápidos de cobertura vegetal para licenciamento ambiental.  
+- **Necessidades:** Escalabilidade e acesso ao modelo como serviço (AIaaS).
 
 ### Mapa de Empatia
-- **O que pensa e sente?** Tem medo de que a tecnologia erre e classifique sua área de agricultura como mata nativa, gerando multas indevidas.
-- **O que vê?** Sua terra sendo mapeada por ferramentas digitais que ele não compreende totalmente; vê a fiscalização aumentar na APA de Petrópolis.
-- **O que ouve?** Rumores de vizinhos sobre o uso de "computadores que veem tudo do céu" para monitorar as propriedades rurais.
-- **O que fala e faz?** Cuida de sua plantação; busca o sindicato rural para entender seus direitos e a demarcação de sua área de agricultura.
-- **Quais são as dores?** A exclusão digital e a insegurança jurídica causada por processos de classificação automáticos que ele não pode contestar facilmente.
-- **Quais são as necessidades?** Transparência e clareza nos mapas, garantindo que as classes (como agricultura vs. vegetação) sejam distinguidas corretamente.
+- **O que pensa e sente?** Valoriza produtividade e rapidez para atender clientes.  
+- **O que vê?** Plataformas web capazes de simplificar fluxos complexos de inferência.  
+- **O que ouve?** Que softwares tradicionais são caros e exigem treinamento longo.  
+- **O que fala e faz?** Analisa áreas comerciais e exporta mapas para relatórios técnicos.  
+- **Quais são as dores?** Alto custo de hardware e licenças como ArcGIS.  
+- **Quais são as necessidades?** Processamento sob demanda e integração fácil com laudos.
 
-### Contexto de Uso
-- **Cenário Físico:** Uma área rural na APA de Petrópolis. Ele está sentado na varanda de sua casa, tentando usar um tablet com conexão 4G instável.
-- **Narrativa:** Preocupado com notícias sobre multas ambientais, o Sr. Benedito pede ao neto para mostrar "como o governo está vendo a terra dele". O contexto social é de desconfiança e ansiedade em relação à tecnologia automática. Ele observa o mapa gerado e busca identificar sua plantação de Agricultura (Amarelo). Para ele, o sucesso do uso é o sentimento de alívio ao perceber que o sistema não confundiu sua área de cultivo com mata nativa preservada, garantindo que ele está em conformidade com as regras da unidade de conservação.
+### Contexto de Uso — Consultoria Privada
+- **Cenário Físico:** Escritório open office movimentado. Usa notebook corporativo alternando entre Wi-Fi e 4G.  
+- **Narrativa:** Felipe precisa entregar rapidamente um relatório de cobertura vegetal para uma concessionária. Usa o GeoSegment para processar recortes de imagens e obter percentuais de classes para laudos ambientais.
 
-### Jornada de Usuário
-- **Objetivo:** Conferir se sua área de plantio não está sendo confundida com floresta nativa pelo sistema do governo.
-- **Ações:** Pede ao neto para acessar o site -> Observa a tela enquanto a imagem de sua fazenda é processada -> Busca a cor amarela (Agricultura) no mapa segmentado.
-- **Pensamentos:** "Espero que esse computador saiba a diferença entre o meu pomar e a mata fechada." "Não quero receber uma multa por algo que eu não fiz".
-- **Emoções:** Desconfiança e medo da tecnologia -> Tensão -> Tranquilidade ao ver que o "Amarelo" respeitou os limites da sua lavoura.
+### Jornada de Usuário — Produtividade
+- **Objetivo:** Gerar rapidamente dados de cobertura vegetal para relatórios.  
+- **Ações:** Acessa o GeoSegment → Faz upload das áreas → Copia estatísticas para planilha.  
+- **Pensamentos:**  
+  - "Isso economiza horas de trabalho manual."  
+- **Emoções:** Pressão por prazos → Foco → Entusiasmo com a agilidade.
+
+---
+
+## 4. Cláudia Torres (Gestora de Políticas Públicas) — Stakeholder
+
+### Perfil da Persona
+- **Perfil:** Secretária de Meio Ambiente, 50 anos, focada em planejamento urbano estratégico.  
+- **Objetivos:** Utilizar dados e mapas para embasar decisões políticas e leis de zoneamento.  
+- **Necessidades:** Visualizações claras e estatísticas compreensíveis.
+
+### Mapa de Empatia
+- **O que pensa e sente?** Preocupada com o zoneamento sustentável e preservação ambiental.  
+- **O que vê?** Mapas coloridos que facilitam a leitura territorial.  
+- **O que ouve?** Demandas por transparência na gestão ambiental.  
+- **O que fala e faz?** Apresenta diagnósticos territoriais e propõe políticas públicas.  
+- **Quais são as dores?** Dificuldade em interpretar dados técnicos complexos.  
+- **Quais são as necessidades?** Visualizações comparativas e estatísticas claras.
+
+### Contexto de Uso — Planejamento Estratégico
+- **Cenário Físico:** Sala de reuniões da Secretaria de Meio Ambiente com projetor exibindo resultados.  
+- **Narrativa:** Cláudia lidera discussões sobre zoneamento urbano utilizando mapas gerados pelo sistema para demonstrar áreas críticas e justificar decisões políticas.
+
+### Jornada de Usuário — Comunicação Estratégica
+- **Objetivo:** Apresentar dados claros para decisões de políticas públicas.  
+- **Ações:** Observa a operação do sistema → Analisa mapas projetados → Apresenta estatísticas ao conselho.  
+- **Pensamentos:**  
+  - "As cores facilitam o entendimento do avanço urbano."  
+- **Emoções:** Preocupação → Determinação → Autoridade técnica.
+
+---
+
+## 5. Sr. Benedito (Pequeno Proprietário Rural) — Persona Extrema
+
+### Perfil da Persona
+- **Perfil:** Produtor rural de 60 anos da região serrana de Petrópolis.  
+- **Objetivos:** Garantir que sua área agrícola seja classificada corretamente.  
+- **Necessidades:** Transparência e precisão no mapeamento.
+
+### Mapa de Empatia
+- **O que pensa e sente?** Receio de ser prejudicado por erros da tecnologia.  
+- **O que vê?** Sua propriedade identificada por imagens aéreas.  
+- **O que ouve?** Comentários sobre fiscalização ambiental automatizada.  
+- **O que fala e faz?** Trabalha na terra e busca entender o funcionamento do sistema.  
+- **Quais são as dores?** Possível confusão entre Agricultura e Vegetação Esparsa.  
+- **Quais são as necessidades?** Alta precisão e clareza no processo.
+
+### Contexto de Uso — Verificação de Conformidade
+- **Cenário Físico:** Varanda de casa rural com internet instável via rádio.  
+- **Narrativa:** O neto ajuda o Sr. Benedito a visualizar o mapa da propriedade. Ele observa se a área agrícola foi corretamente identificada.
+
+### Jornada de Usuário — Segurança Jurídica
+- **Objetivo:** Confirmar que sua área de cultivo está correta no sistema.  
+- **Ações:** Solicita ajuda ao neto → Visualiza o mapa segmentado → Confere os limites da propriedade.  
+- **Pensamentos:**  
+  - "Espero que a tecnologia não me prejudique."  
+- **Emoções:** Desconfiança → Ansiedade → Alívio ao confirmar a classificação correta.
