@@ -2,9 +2,10 @@
 
 ---
 
-## 1. Ricardo Mendes (Analista Ambiental do ICMBio) — Persona Primária
+## 1. Ricardo Mendes (Analista Ambiental do ICMBio)
 
 ### Perfil da Persona
+- **Status:** Persona Primária.
 - **Perfil:** Geógrafo de 42 anos focado em gestão territorial e fiscalização na APA de Petrópolis.  
 - **Objetivos:** Realizar o mapeamento automático do uso do solo para identificar desmatamentos ou expansões urbanas irregulares sem precisar de processamento manual.  
 - **Necessidades:** Uma interface web intuitiva que forneça mapas temáticos e proporções estatísticas por classe de forma rápida.
@@ -31,9 +32,10 @@
 
 ---
 
-## 2. Dra. Helena Silveira (Pesquisadora Acadêmica) — Persona Primária
+## 2. Dra. Helena Silveira (Pesquisadora Acadêmica)
 
 ### Perfil da Persona
+- **Status:** Persona Primária.
 - **Perfil:** Doutora em Visão Computacional, 35 anos, interessada na validade científica dos modelos de IA.  
 - **Objetivos:** Comparar o desempenho das arquiteturas (V0, V1 e V2) e validar métricas como mIoU e IoU por classe.  
 - **Necessidades:** Acesso a resultados de segmentação em nível de pixel e compreensão de como o modelo lida com classes desbalanceadas e refinamento de bordas.
@@ -60,9 +62,10 @@
 
 ---
 
-## 3. Felipe Antunes (Consultor Ambiental Privado) — Persona Secundária
+## 3. Felipe Antunes (Consultor Ambiental Privado)
 
 ### Perfil da Persona
+- **Status:** Persona Secundária.
 - **Perfil:** Consultor ambiental de 29 anos que trabalha para empresas de infraestrutura.  
 - **Objetivos:** Obter laudos rápidos de cobertura vegetal para licenciamento ambiental.  
 - **Necessidades:** Escalabilidade e acesso ao modelo como serviço (AIaaS).
@@ -88,9 +91,10 @@
 
 ---
 
-## 4. Cláudia Torres (Gestora de Políticas Públicas) — Stakeholder
+## 4. Cláudia Torres (Gestora de Políticas Públicas)
 
 ### Perfil da Persona
+- **Status:** Stakeholder.
 - **Perfil:** Secretária de Meio Ambiente, 50 anos, focada em planejamento urbano estratégico.  
 - **Objetivos:** Utilizar dados e mapas para embasar decisões políticas e leis de zoneamento.  
 - **Necessidades:** Visualizações claras e estatísticas compreensíveis.
@@ -116,9 +120,10 @@
 
 ---
 
-## 5. Sr. Benedito (Pequeno Proprietário Rural) — Persona Extrema
+## 5. Sr. Benedito (Pequeno Proprietário Rural)
 
 ### Perfil da Persona
+- **Status:** Persona Extrema.
 - **Perfil:** Produtor rural de 60 anos da região serrana de Petrópolis.  
 - **Objetivos:** Garantir que sua área agrícola seja classificada corretamente.  
 - **Necessidades:** Transparência e precisão no mapeamento.
