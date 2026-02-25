@@ -46,11 +46,11 @@ Pesquisadores e especialistas ambientais.
 
 ## 9. Funcionalidades da Ferramenta (Visão do Usuário)
 
-- Segmentar imagens (ex.: .tiff ou .png) - **Vinícius**: Ricardo Mendes
-- Seleção de redes neurais + Informações técnicas (ex.: qual rede neural está sendo utilizada) - **Gustavo**: Dra. Helena
-- Geração de insights sobre a imagem segmentada da área + Painéis e dashboards que mostram informações e características das áreas segmentadas - **Deise**: 
-- Comparação temporal de resultados - **Lucas**: 
-- Dashboard inicial (Histórico de uso e timeline) - **Victor**: 
+- Segmentar imagens (ex.: .tiff ou .png), **Vinícius**: Ricardo Mendes
+- Seleção de redes neurais + Informações técnicas (ex.: qual rede neural está sendo utilizada), **Gustavo**: Dra. Helena
+- Geração de insights sobre a imagem segmentada da área + Painéis e dashboards que mostram informações e características das áreas segmentadas, **Deise**: 
+- Comparação temporal de resultados, **Lucas**: 
+- Dashboard inicial (Histórico de uso e timeline), **Victor**: 
 
 ## 10. Tecnologias e Ferramentas Computacionais
 
