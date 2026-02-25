@@ -18,11 +18,11 @@
 - **Quais são as dores?** A dependência de infraestrutura dedicada e o tempo gasto em anotações manuais que retardam a tomada de decisão.  
 - **Quais são as necessidades?** Uma interface web intuitiva para visualizar mapas temáticos e consultar proporções de cobertura do solo de forma automática.
 
-### Contexto de Uso — Gestão Territorial
+### Contexto de Uso: Gestão Territorial
 - **Cenário Físico:** Escritório do ICMBio em Petrópolis, com iluminação natural e mapas da unidade de conservação nas paredes. Utiliza um computador desktop padrão conectado à internet.  
 - **Narrativa:** Sob pressão para monitorar a expansão de núcleos urbanos na APA de Petrópolis, Ricardo acessa o GeoSegment para processar imagens aéreas de 30 cm/px. O ambiente institucional exige respostas rápidas. A ferramenta em nuvem (AIaaS) permite gerar mapas coloridos e proporções de área por classe sem instalar softwares pesados como ArcGIS ou realizar anotações manuais demoradas.
 
-### Jornada de Usuário — Fiscalização
+### Jornada de Usuário: Fiscalização
 - **Objetivo:** Identificar rapidamente mudanças no uso do solo na APA de Petrópolis para embasar ações de manejo.  
 - **Ações:** Abre o navegador → Carrega uma imagem de alta resolução (30 cm/px) → Solicita a segmentação automática → Analisa a visualização lado a lado (Original vs. Segmentado).  
 - **Pensamentos:**  
@@ -48,11 +48,11 @@
 - **Quais são as dores?** Desbalanceamento severo de classes minoritárias como Água e Rocha em dataset reduzido.  
 - **Quais são as necessidades?** Métricas detalhadas por classe e experimentos reproduzíveis.
 
-### Contexto de Uso — Validação de Modelos
+### Contexto de Uso: Validação de Modelos
 - **Cenário Físico:** Laboratório de computação silencioso com estação de trabalho e dois monitores de alta fidelidade cromática.  
 - **Narrativa:** Helena analisa tecnicamente as versões V0, V1 e V2 do sistema. Precisa justificar o uso do modelo V2 (DeepLabV3+) mesmo com mIoU de 73,81% inferior ao benchmark V0 (77,75%). Ela examina erros em classes desbalanceadas e avalia se a função de perda composta melhorou o refinamento de bordas.
 
-### Jornada de Usuário — Validação Técnica
+### Jornada de Usuário: Validação Técnica
 - **Objetivo:** Validar cientificamente o modelo V2 para publicação de resultados.  
 - **Ações:** Acessa a interface → Envia patches com Água e Rocha → Analisa segmentação pixel a pixel → Compara resultados com métricas de referência.  
 - **Pensamentos:**  
@@ -78,11 +78,11 @@
 - **Quais são as dores?** Alto custo de hardware e licenças como ArcGIS.  
 - **Quais são as necessidades?** Processamento sob demanda e integração fácil com laudos.
 
-### Contexto de Uso — Consultoria Privada
+### Contexto de Uso: Consultoria Privada
 - **Cenário Físico:** Escritório open office movimentado. Usa notebook corporativo alternando entre Wi-Fi e 4G.  
 - **Narrativa:** Felipe precisa entregar rapidamente um relatório de cobertura vegetal para uma concessionária. Usa o GeoSegment para processar recortes de imagens e obter percentuais de classes para laudos ambientais.
 
-### Jornada de Usuário — Produtividade
+### Jornada de Usuário: Produtividade
 - **Objetivo:** Gerar rapidamente dados de cobertura vegetal para relatórios.  
 - **Ações:** Acessa o GeoSegment → Faz upload das áreas → Copia estatísticas para planilha.  
 - **Pensamentos:**  
@@ -107,11 +107,11 @@
 - **Quais são as dores?** Dificuldade em interpretar dados técnicos complexos.  
 - **Quais são as necessidades?** Visualizações comparativas e estatísticas claras.
 
-### Contexto de Uso — Planejamento Estratégico
+### Contexto de Uso: Planejamento Estratégico
 - **Cenário Físico:** Sala de reuniões da Secretaria de Meio Ambiente com projetor exibindo resultados.  
 - **Narrativa:** Cláudia lidera discussões sobre zoneamento urbano utilizando mapas gerados pelo sistema para demonstrar áreas críticas e justificar decisões políticas.
 
-### Jornada de Usuário — Comunicação Estratégica
+### Jornada de Usuário: Comunicação Estratégica
 - **Objetivo:** Apresentar dados claros para decisões de políticas públicas.  
 - **Ações:** Observa a operação do sistema → Analisa mapas projetados → Apresenta estatísticas ao conselho.  
 - **Pensamentos:**  
@@ -136,11 +136,11 @@
 - **Quais são as dores?** Possível confusão entre Agricultura e Vegetação Esparsa.  
 - **Quais são as necessidades?** Alta precisão e clareza no processo.
 
-### Contexto de Uso — Verificação de Conformidade
+### Contexto de Uso: Verificação de Conformidade
 - **Cenário Físico:** Varanda de casa rural com internet instável via rádio.  
 - **Narrativa:** O neto ajuda o Sr. Benedito a visualizar o mapa da propriedade. Ele observa se a área agrícola foi corretamente identificada.
 
-### Jornada de Usuário — Segurança Jurídica
+### Jornada de Usuário: Segurança Jurídica
 - **Objetivo:** Confirmar que sua área de cultivo está correta no sistema.  
 - **Ações:** Solicita ajuda ao neto → Visualiza o mapa segmentado → Confere os limites da propriedade.  
 - **Pensamentos:**  

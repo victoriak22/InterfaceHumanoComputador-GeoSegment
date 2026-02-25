@@ -185,7 +185,7 @@ Moderada, especialmente para usuários já inseridos no ecossistema Esri.
 
 # 4. Modelos de Interação
 
-## 4.1 Modelo Exploratórico (Desktop SIG)
+## 4.1 Modelo Exploratório (Desktop SIG)
 
 - Manipulação manual de camadas
 - Configuração detalhada de parâmetros
