@@ -1,5 +1,9 @@
 ## (CC8122) INTERFACE HUMANO-COMPUTADOR: PROJETO GEOSEGMENT
 
+<p align="center">
+  <img src="img/example.png" alt="Capa do projeto GeoSegment" width="100%">
+</p>
+
 ![FEI](https://img.shields.io/badge/Instituição-FEI-blue)
 ![Disciplina](https://img.shields.io/badge/Disciplina-IHC-critical)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-informational)
@@ -16,6 +20,7 @@ O projeto tem como objetivo aplicar conceitos de **usabilidade**, **experiência
 | **Tópico 1** | Caracterização do Projeto Interface | [Visualizar](https://github.com/victoriak22/InterfaceHumanoComputador-GeoSegment/blob/main/T%C3%B3pico%201%20-%20Caracteriza%C3%A7%C3%A3o%20do%20Projeto%20Interface.md) |
 | **Tópico 2** | Análise de concorrência | [Visualizar](https://github.com/victoriak22/InterfaceHumanoComputador-GeoSegment/blob/main/T%C3%B3pico%202%20-%20An%C3%A1lise%20de%20concorr%C3%AAncia.md) |
 | **Tópico 3** | Personas e Perfil do usuário | [Visualizar](https://github.com/victoriak22/InterfaceHumanoComputador-GeoSegment/blob/main/T%C3%B3pico%203%20-%20Usu%C3%A1rios.md) |
+| **Tópico 4** | Cenário de Análise de Problemas | [Visualizar](Tópico%204%20-%20Cenário%20de%20Análise%20de%20Problemas.md) |
 
 ## Membros da Equipe
 
