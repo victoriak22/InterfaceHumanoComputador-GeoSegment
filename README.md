@@ -21,6 +21,16 @@ O projeto tem como objetivo aplicar conceitos de **usabilidade**, **experiência
 | **Tópico 2** | Análise de concorrência | [Visualizar](https://github.com/victoriak22/InterfaceHumanoComputador-GeoSegment/blob/main/T%C3%B3pico%202%20-%20An%C3%A1lise%20de%20concorr%C3%AAncia.md) |
 | **Tópico 3** | Personas e Perfil do usuário | [Visualizar](https://github.com/victoriak22/InterfaceHumanoComputador-GeoSegment/blob/main/T%C3%B3pico%203%20-%20Usu%C3%A1rios.md) |
 | **Tópico 4** | Cenário de Análise de Problemas | [Visualizar](Tópico%204%20-%20Cenário%20de%20Análise%20de%20Problemas.md) |
+| **Tópico 5** | Modelos de tarefas (HTA, GOMS, CTT) | X |
+| **Tópico 6** | Abordagens teóricas de IHC (complementar) | X |
+| **Tópico 7** | Identificação de necessidades e requisitos de IHC | X |
+| **Tópico 8** | Processos de projeto de IHC | X |
+| **Tópico 9** | Modelo conceitual e Esquema de Signos | X |
+| **Tópico 10** | MoLIC (modelagem da interação) | X |
+| **Tópico 11** | Prototipação da interface (Figma) | X |
+| **Tópico 12** | Princípios e diretrizes para design / Planejamento da avaliação | X |
+| **Tópico 13** | A definir | X |
+| **Tópico 14** | A definir | X |
 
 ## Membros da Equipe
 
