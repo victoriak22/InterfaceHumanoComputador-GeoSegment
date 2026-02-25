@@ -8,7 +8,17 @@
 
 ---
 
-## 1. Conjunto de perguntas como resultado da análise
+## 1. Cenário inicial (antes do refinamento)
+
+Ricardo Mendes está no escritório do ICMBio em Petrópolis, com prazo curto para entregar um relatório sobre avanço urbano na APA. Ele já realizou a segmentação automática de uma imagem aérea de alta resolução no GeoSegment e o sistema gerou o mapa segmentado corretamente. Mesmo assim, Ricardo precisa responder perguntas estratégicas: qual porcentagem da área corresponde a vegetação nativa, se houve aumento de área urbana em relação ao ano anterior, onde estão os principais focos de alteração e qual classe apresentou maior variação. Hoje ele não tem tempo para exportar shapefiles, abrir no QGIS e calcular manualmente estatísticas por classe. Ele pensa que precisa transformar o mapa em números claros e comparáveis e que não pode perder tempo calculando manualmente.
+
+No escritório, Ricardo dispõe de computador e internet. Sua formação em geografia o ajuda a interpretar mapas, mas a falta de uma visão consolidada no próprio sistema o obriga a usar ferramentas externas. Ele acessa a aba “Insights e Dashboard” após a segmentação: o sistema calcula proporção por classe, gera gráfico de pizza e gráfico de barras comparativo entre ano atual e anterior e destaca variações percentuais. Ao ativar o modo “Comparação Temporal”, o sistema sobrepõe os mapas e destaca as áreas de mudança em cores contrastantes. O processamento é automático; os gráficos atualizam ao trocar filtros e um resumo interpretativo informa, por exemplo, que a classe Urbana apresentou crescimento de 12,4% em relação ao período anterior. Ricardo exporta um relatório em PDF com mapa, estatísticas, gráficos e resumo textual. O relatório fica pronto para entrega no prazo.
+
+Ao mesmo tempo, Cláudia Torres precisa apresentar dados claros em uma reunião da Secretaria de Meio Ambiente. Ela não possui formação técnica em geoprocessamento e precisa de visualizações simples e compreensíveis. Ela pensa que precisa explicar tudo de forma simples para o conselho e que, se o mapa for muito técnico, ninguém vai entender. Ela depende do material que Ricardo ou o próprio sistema podem gerar — gráficos claros e resumo em linguagem não técnica — para apresentar os dados na reunião e apoiar decisões baseadas em evidências. O problema que ambos enfrentam é a dificuldade de interpretar resultados técnicos de segmentação para tomada de decisão estratégica quando não há estatísticas automáticas, comparação temporal integrada e relatório pronto na própria interface.
+
+---
+
+## 2. Conjunto de perguntas como resultado da análise
 
 Perguntas de refinamento aplicadas ao tema do cenário, cobrindo os elementos da técnica (objetivo, ambiente, atores, planejamento, ação, evento, avaliação):
 
@@ -29,7 +39,7 @@ Perguntas de refinamento aplicadas ao tema do cenário, cobrindo os elementos da
 
 ---
 
-## 2. Cenário final referenciando as perguntas
+## 3. Cenário refinado (depois do refinamento)
 
 Na primeira semana de fevereiro, Ricardo Mendes está no escritório do ICMBio em Petrópolis, com prazo curto para entregar um relatório sobre avanço urbano na APA [5]. Ele já realizou a segmentação automática de uma imagem aérea de alta resolução (30 cm/px) no GeoSegment e o sistema gerou o mapa segmentado corretamente [2]. Ricardo precisa responder perguntas estratégicas: qual porcentagem da área corresponde a vegetação nativa, se houve aumento de área urbana em relação ao ano anterior, onde estão os principais focos de alteração e qual classe apresentou maior variação [3]. Hoje ele não tem tempo para exportar shapefiles, abrir no QGIS e calcular manualmente estatísticas por classe [10]. Ele pensa: “Preciso transformar esse mapa em números claros e comparáveis. Não posso perder tempo calculando manualmente.” [8]
 
@@ -43,11 +53,9 @@ Ao mesmo tempo, Cláudia Torres precisa apresentar dados claros em uma reunião 
 
 ## Passo a passo (referência à técnica)
 
-- Usou-se os elementos do cenário de problema para construir o esqueleto do cenário.
-- Construiu-se uma narrativa em texto contínuo (não em tópicos).
-- Definidas as questões de refinamento aplicadas ao tema do cenário (itens 1 a 14).
-- As questões cobrem todos os elementos da técnica (objetivo, ambiente, atores, planejamento, ação, evento, avaliação).
-- Na narrativa, cada questão foi localizada onde é respondida e sinalizada com o número entre colchetes [n].
+- Construiu-se o **cenário inicial** (antes do refinamento) como narrativa em texto, com elementos do cenário de problema.
+- Definidas as **questões de refinamento** aplicadas ao tema do cenário (itens 1 a 14), cobrindo objetivo, ambiente, atores, planejamento, ação, evento e avaliação.
+- Construiu-se o **cenário refinado** (depois do refinamento): mesma narrativa enriquecida, com cada questão localizada onde é respondida e sinalizada com o número entre colchetes [n].
 
 ---
 
