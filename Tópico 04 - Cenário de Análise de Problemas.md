@@ -50,27 +50,3 @@ Ricardo acessa a aba "Insights e Dashboard" após a segmentação. O sistema cal
 Ao mesmo tempo, Cláudia Torres precisa apresentar dados claros em uma reunião da Secretaria de Meio Ambiente [5]. Ela não possui formação técnica em geoprocessamento e precisa de visualizações simples e compreensíveis [7]. Ela pensa: "Preciso explicar isso de forma simples para o conselho. Se o mapa for muito técnico, ninguém vai entender." Quem consome as informações geradas pelo sistema são tanto o ICMBio quanto gestores e o conselho; eles precisam de evidências visuais para tomar decisões, e em alguns fluxos seria desejável notificar envolvidos quando um relatório ou painel está pronto [9]. Cláudia depende do material que Ricardo (ou o próprio sistema) pode gerar: gráficos claros e resumo em linguagem não técnica [8]. O resultado esperado para ela é conseguir apresentar os dados na reunião e apoiar decisões baseadas em evidências [14]. Em que pontos a interação pode ser mais eficiente? Quando o sistema evita exportação manual, cálculo em planilhas e construção de gráficos externos, reduzindo carga cognitiva e permitindo que tanto o analista quanto a gestora passem do resultado técnico ao insight e à ação em minutos [14].
 
 ---
-
-## Passo a passo (referência à técnica)
-
-- Construiu-se o **cenário inicial** (antes do refinamento) como narrativa em texto, com elementos do cenário de problema.
-- Definidas as **questões de refinamento** aplicadas ao tema do cenário (itens 1 a 14), cobrindo objetivo, ambiente, atores, planejamento, ação, evento e avaliação.
-- Construiu-se o **cenário refinado** (depois do refinamento): mesma narrativa enriquecida, com cada questão localizada onde é respondida e sinalizada com o número entre colchetes [n].
-
----
-
-## Problema evidenciado (síntese)
-
-- Exportação manual de dados para QGIS ou planilhas.
-- Cálculo manual de estatísticas por classe.
-- Construção de gráficos em ferramentas externas.
-- Interpretação de números brutos sem apoio visual e sem resumo interpretativo.
-- Gasto excessivo de tempo em tarefas operacionais em vez de análise e decisão.
-
-## Como a interface agrega valor (síntese)
-
-- Reduz carga cognitiva.
-- Automatiza análise estatística e geração de gráficos e resumo.
-- Traduz segmentação técnica em informação estratégica.
-- Permite tomada de decisão em minutos.
-- Conecta resultado técnico → insight → ação.
