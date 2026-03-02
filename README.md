@@ -42,6 +42,18 @@ O projeto tem como objetivo aplicar conceitos de **usabilidade**, **experiência
 | Victor Caldeira Iak | 22.122.057-7 |
 | Vinicius Saidi Soares | 22.122.064-3 |
 
+## Rastreabilidade: Responsável × Funcionalidade × Cenário (Tópico 04)
+
+Cada integrante é responsável por uma grande funcionalidade; cada funcionalidade possui um cenário de análise de problemas no [Tópico 04](Tópico%2004%20-%20Cenário%20de%20Análise%20de%20Problemas.md).
+
+| Responsável | Funcionalidade | Cenário (Tópico 04) |
+|-------------|----------------|---------------------|
+| Vinicius Saidi Soares | Segmentação de imagens (upload) | Cenário 1 – Upload e segmentação |
+| Gustavo Dias Vicentin | Seleção de redes + informações técnicas | Cenário 2 – Seleção de modelo e validação técnica |
+| Deise Adriana Silva Araújo | Insights e dashboards | Cenário 3 – Insights e Dashboard |
+| Lucas Rebouças Silva | Comparação temporal | Cenário 4 – Comparação temporal |
+| Victor Caldeira Iak | Dashboard inicial (Histórico e timeline) | Cenário 5 – Histórico e timeline |
+
 ## Instituição
 
 **Centro Universitário FEI** <BR>
