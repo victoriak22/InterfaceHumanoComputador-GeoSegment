@@ -281,3 +281,17 @@ A principal diferença competitiva entre essas soluções está no equilíbrio e
 Ferramentas desktop privilegiam profundidade analítica, enquanto plataformas SaaS priorizam acessibilidade e redução de barreiras técnicas.
 
 Essa dinâmica revela uma tendência clara de especialização e simplificação progressiva da experiência do usuário no setor de geotecnologias.
+
+---
+
+# 10. Decisões de design do GeoSegment à luz da concorrência
+
+O GeoSegment posiciona-se como **plataforma web (AIaaS)** que combina **acesso simplificado** (como MapBiomas) com **controle sobre o modelo de segmentação** (como Brazil Data Cube) e **visualização rica com insights e comparação temporal** integrados. As decisões de design refletem diretamente os pontos positivos e tendências identificados na concorrência:
+
+- **Acesso via navegador, sem instalação:** Alinhado à tendência de migração para nuvem e à redução de barreiras técnicas; atende analistas como Ricardo Mendes que não podem depender de QGIS ou ArcGIS em todas as estações.
+- **Feedback visual imediato e indicadores de status:** Resposta ao problema de “feedback variável” dos SIG tradicionais; o usuário sempre sabe em que etapa está (upload, processamento, resultado), em linha com princípios de usabilidade como **visibilidade do status do sistema** (Nielsen).
+- **Organização em fluxo guiado (Home → Upload → Seleção de rede → Dashboard):** Reduz carga cognitiva em relação ao modelo exploratório desktop (múltiplos painéis e ferramentas simultâneas), aproximando-se do modelo de exploração temática das plataformas SaaS e do princípio de **consistência** e **redução da carga de memória** do usuário.
+- **Dashboard com insights, gráficos e comparação temporal:** Incorpora a ideia de “interface limpa” e “exploração de séries” (MapBiomas), mas com processamento sob demanda e controle de modelo (BDC), atendendo tanto a gestores (Cláudia) quanto a analistas (Ricardo) e pesquisadores (Helena).
+- **Histórico e timeline na Home:** Oferece visão consolidada do que já foi processado, reduzindo desorientação e apoio à **flexibilidade e eficiência de uso** (Nielsen).
+
+Essas escolhas estão alinhadas a **princípios e diretrizes de IHC**: consistência, feedback, visibilidade do status, redução de carga cognitiva e orientação à tarefa do usuário (Nielsen; Shneiderman). A análise de concorrência serve assim como fundamento para que o design do GeoSegment seja consciente em relação à teoria de IHC e às expectativas do público-alvo (ver Tópicos 01, 03 e 11).
