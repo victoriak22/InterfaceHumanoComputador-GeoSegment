@@ -22,6 +22,13 @@
 - **Cenário Físico:** Escritório do ICMBio em Petrópolis, com iluminação natural e mapas da unidade de conservação nas paredes. Utiliza um computador desktop padrão conectado à internet.  
 - **Narrativa:** Sob pressão para monitorar a expansão de núcleos urbanos na APA de Petrópolis, Ricardo acessa o GeoSegment para processar imagens aéreas de 30 cm/px. O ambiente institucional exige respostas rápidas. A ferramenta em nuvem (AIaaS) permite gerar mapas coloridos e proporções de área por classe sem instalar softwares pesados como ArcGIS ou realizar anotações manuais demoradas.
 
+### Tarefas principais (análise de tarefas)
+- Fazer upload de imagem (formato .tiff ou .png) da área de interesse.
+- Selecionar e executar a segmentação automática.
+- Visualizar mapa original e mapa segmentado lado a lado.
+- Acessar estatísticas e proporções por classe.
+- Exportar ou utilizar resultados em relatório (com apoio do Dashboard e comparação temporal).
+
 ### Jornada de Usuário: Fiscalização
 - **Objetivo:** Identificar rapidamente mudanças no uso do solo na APA de Petrópolis para embasar ações de manejo.  
 - **Ações:** Abre o navegador → Carrega uma imagem de alta resolução (30 cm/px) → Solicita a segmentação automática → Analisa a visualização lado a lado (Original vs. Segmentado).  
@@ -52,6 +59,13 @@
 - **Cenário Físico:** Laboratório de computação silencioso com estação de trabalho e dois monitores de alta fidelidade cromática.  
 - **Narrativa:** Helena analisa tecnicamente as versões V0, V1 e V2 do sistema. Precisa justificar o uso do modelo V2 (DeepLabV3+) mesmo com mIoU de 73,81% inferior ao benchmark V0 (77,75%). Ela examina erros em classes desbalanceadas e avalia se a função de perda composta melhorou o refinamento de bordas.
 
+### Tarefas principais (análise de tarefas)
+- Fazer upload de imagens ou patches para teste (ex.: classes Água e Rocha).
+- Selecionar a rede neural (V0, V1 ou V2) e ver informações técnicas (métricas, arquitetura).
+- Analisar resultado de segmentação em nível de pixel.
+- Comparar desempenho entre modelos (mIoU, IoU por classe, refinamento de bordas).
+- Documentar ou exportar resultados para publicação.
+
 ### Jornada de Usuário: Validação Técnica
 - **Objetivo:** Validar cientificamente o modelo V2 para publicação de resultados.  
 - **Ações:** Acessa a interface → Envia patches com Água e Rocha → Analisa segmentação pixel a pixel → Compara resultados com métricas de referência.  
@@ -81,6 +95,12 @@
 ### Contexto de Uso: Consultoria Privada
 - **Cenário Físico:** Escritório open office movimentado. Usa notebook corporativo alternando entre Wi-Fi e 4G.  
 - **Narrativa:** Felipe precisa entregar rapidamente um relatório de cobertura vegetal para uma concessionária. Usa o GeoSegment para processar recortes de imagens e obter percentuais de classes para laudos ambientais.
+
+### Tarefas principais (análise de tarefas)
+- Acessar o sistema e ver histórico/timeline de processamentos.
+- Fazer upload de imagens das áreas de interesse.
+- Obter segmentação e estatísticas por classe.
+- Copiar ou exportar dados para planilhas e laudos.
 
 ### Jornada de Usuário: Produtividade
 - **Objetivo:** Gerar rapidamente dados de cobertura vegetal para relatórios.  
@@ -146,3 +166,15 @@
 - **Pensamentos:**  
   - "Espero que a tecnologia não me prejudique."  
 - **Emoções:** Desconfiança → Ansiedade → Alívio ao confirmar a classificação correta.
+
+---
+
+## Rastreabilidade: Persona → Telas e fluxos principais (Tópico 11)
+
+| Persona | Telas / fluxos principais no GeoSegment |
+|---------|----------------------------------------|
+| Ricardo Mendes | Home inicial → Upload de imagem → Seleção de rede → Dashboard (insights, estatísticas, comparação temporal, relatório) |
+| Dra. Helena Silveira | Upload de imagem → Seleção de rede (com informações técnicas e métricas) → Dashboard (análise pixel a pixel, comparação de modelos) |
+| Felipe Antunes | Home inicial → Upload → Seleção de rede → Dashboard (estatísticas, exportação para laudos); uso frequente do histórico/timeline |
+| Cláudia Torres | Dashboard (visualizações, gráficos, relatório em linguagem acessível para apresentação em reuniões) |
+| Sr. Benedito | Visualização do mapa segmentado da propriedade (com apoio); confirmação de classificação da área agrícola |
