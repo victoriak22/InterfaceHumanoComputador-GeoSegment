@@ -118,13 +118,6 @@ Ao mesmo tempo, Cláudia Torres precisa apresentar dados claros em uma reunião 
 **Atores:** Ricardo Mendes, Felipe Antunes (consultor ambiental), Sistema GeoSegment.
 
 **Cenário inicial:** Ricardo e Felipe precisam responder se houve aumento de área urbana ou alteração na cobertura vegetal em relação a um período anterior. Hoje isso exige exportar dados, abrir em outra ferramenta e calcular manualmente – um processo semelhante ao que leva Helena a procurar métricas no Cenário 3, mas aqui a dificuldade está na comparação entre arquivos processados.
-
-**Cenário refinado:** Após ter segmentações de dois períodos (ou acessar dados já processados), o usuário ativa o modo "Comparação Temporal" no Dashboard (mesma aba utilizada em Cenário 3). O sistema sobrepõe os mapas e destaca as áreas de mudança em cores contrastantes; gráficos comparativos (ex.: barras ano atual vs. anterior) e variações percentuais por classe são exibidos. O usuário interpreta e pode incluir essa visão no relatório ou painel de insights. Avaliação: comparação obtida sem sair da interface, em minutos, com feedback visual imediato sobre a confiabilidade dos dados.
-
-_A sobreposição dos mapas e os gráficos comparativos respondem às perguntas 3 e 4; a indicação de variação percentual atende 5 e 6; a rapidez de obtenção resolve 10._
-
-**Problema evidenciado:** Trabalho manual de comparação em QGIS ou planilhas. **Valor da interface:** Comparação temporal integrada no Dashboard, com visualização e estatísticas automáticas (tela: Dashboard; ver Tópico 11).
-
 ## 2. Conjunto de perguntas como resultado da análise
 
 1. Quem precisa comparar períodos e com que frequência? Em que fase do uso do sistema essa comparação ocorre?
@@ -138,6 +131,10 @@ _A sobreposição dos mapas e os gráficos comparativos respondem às perguntas�
 9. Quem consome o resultado da comparação (analistas, relatórios, decisões)?
 10. Como esse objetivo é alcançado hoje e como seria ideal na interface?
 
+**Cenário refinado:** Após ter segmentações de dois períodos (ou acessar dados já processados), o usuário ativa o modo "Comparação Temporal" no Dashboard (mesma aba utilizada em Cenário 3). O sistema sobrepõe os mapas e destaca as áreas de mudança em cores contrastantes; gráficos comparativos (ex.: barras ano atual vs. anterior) e variações percentuais por classe são exibidos. O usuário interpreta e pode incluir essa visão no relatório ou painel de insights. Avaliação: comparação obtida sem sair da interface, em minutos, com feedback visual imediato sobre a confiabilidade dos dados. _A sobreposição dos mapas e os gráficos comparativos respondem às perguntas 3 e 4; a indicação de variação percentual atende 5 e 6; a rapidez de obtenção resolve 10._
+
+**Problema evidenciado:** Trabalho manual de comparação em QGIS ou planilhas. **Valor da interface:** Comparação temporal integrada no Dashboard, com visualização e estatísticas automáticas (tela: Dashboard; ver Tópico 11).
+
 ---
 
 ## Cenário 5 – Dashboard inicial, Histórico e timeline (Victor Caldeira Iak)
@@ -147,12 +144,6 @@ _A sobreposição dos mapas e os gráficos comparativos respondem às perguntas�
 **Atores:** Ricardo Mendes, Felipe Antunes, Sistema GeoSegment.
 
 **Cenário inicial:** Analistas e consultores precisam retomar um processamento anterior, ver quando e o que foi processado, ou iniciar um novo fluxo a partir da visão geral. Sem histórico centralizado, perdem tempo buscando arquivos ou repetindo etapas. O problema espelha a falta de rastreabilidade que no Cenário 3 obrigaria Ricardo a recalcular manualmente estatísticas antigas.
-
-**Cenário refinado:** O usuário acessa a Home do GeoSegment e vê o Dashboard inicial com histórico de uso e timeline (processamentos recentes, datas, áreas ou nomes associados). Pode clicar em um item para reabrir o resultado ou iniciar novo upload. O fluxo fica rastreável e o retorno a trabalhos anteriores é direto, facilitando também a revisão de painéis de insights previamente gerados. Avaliação: histórico acessível e navegação clara entre passado e novo processamento.
-_A descrição da Home com histórico e timeline trata as perguntas 1–3; a navegação direta responde 4 e 5; e a facilidade de retorno ao fluxo atende 9._
-
-**Problema evidenciado:** Falta de visão consolidada do que já foi processado e onde estão os resultados. **Valor da interface:** Home e Dashboard como ponto de partida com histórico e timeline (telas: Home inicial, Dashboard; ver Tópico 11).
-
 ## 2. Conjunto de perguntas como resultado da análise
 
 1. Quem utiliza o histórico de uso e por quê? Em quais situações eles retornam a processamentos anteriores?
@@ -164,6 +155,10 @@ _A descrição da Home com histórico e timeline trata as perguntas 1–3; a na
 7. De quem depende a manutenção desse histórico (backend, banco de dados)?
 8. Quem consome esses registros (analistas, consultores)?
 9. Como o histórico é gerenciado atualmente e como poderia ser melhorado?
+
+**Cenário refinado:** O usuário acessa a Home do GeoSegment e vê o Dashboard inicial com histórico de uso e timeline (processamentos recentes, datas, áreas ou nomes associados). Pode clicar em um item para reabrir o resultado ou iniciar novo upload. O fluxo fica rastreável e o retorno a trabalhos anteriores é direto, facilitando também a revisão de painéis de insights previamente gerados. Avaliação: histórico acessível e navegação clara entre passado e novo processamento. _A descrição da Home com histórico e timeline trata as perguntas 1–3; a navegação direta responde 4 e 5; e a facilidade de retorno ao fluxo atende 9._
+
+**Problema evidenciado:** Falta de visão consolidada do que já foi processado e onde estão os resultados. **Valor da interface:** Home e Dashboard como ponto de partida com histórico e timeline (telas: Home inicial, Dashboard; ver Tópico 11).
 
 ---
 
