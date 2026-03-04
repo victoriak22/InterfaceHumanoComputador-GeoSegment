@@ -21,7 +21,7 @@ O projeto tem como objetivo aplicar conceitos de **usabilidade**, **experiência
 | **Tópico 02** | Análise de concorrência | [Visualizar](Tópico%2002%20-%20Análise%20de%20concorrência.md) |
 | **Tópico 03** | Personas e Perfil do usuário | [Visualizar](Tópico%2003%20-%20Usuários.md) |
 | **Tópico 04** | Cenário de Análise de Problemas | [Visualizar](Tópico%2004%20-%20Cenário%20de%20Análise%20de%20Problemas.md) |
-| **Tópico 5** | Modelos de tarefas (HTA, GOMS, CTT) | [HTA – Análise Hierárquica de Tarefas](Tópico%2005%20-%20Análise%20Hierárquica%20de%20Tarefas%20(HTA).md) |
+| **Tópico 5** | Modelos de tarefas (HTA, GOMS, CTT) | [Visualizar](Tópico%2005%20-%20Análise%20Hierárquica%20de%20Tarefas%20(HTA).md) |
 | **Tópico 6** | Abordagens teóricas de IHC (complementar) | X |
 | **Tópico 7** | Identificação de necessidades e requisitos de IHC | X |
 | **Tópico 8** | Processos de projeto de IHC | X |
