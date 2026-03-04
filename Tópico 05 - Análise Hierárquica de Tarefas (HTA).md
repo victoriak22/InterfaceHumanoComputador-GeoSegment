@@ -6,7 +6,8 @@ Este documento descreve a Análise Hierárquica de Tarefas (HTA) do projeto **Ge
 
 A estrutura hierárquica das tarefas do sistema é representada no diagrama abaixo:
 
-![Diagrama HTA - GeoSegment](https://github.com/user-attachments/assets/3a861d3e-10d5-416b-940b-aa7f5f785fed)
+<img width="1270" height="618" alt="image" src="https://github.com/user-attachments/assets/85b2a7cc-a9cd-4f7b-9424-671a2099e8b8" />
+
 
 ---
 
