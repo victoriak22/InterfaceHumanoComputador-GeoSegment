@@ -27,3 +27,52 @@ A estrutura hierárquica das tarefas do sistema é representada no diagrama abai
 | **4.1.2 Analisar estatísticas por classe** | **Problema:** interpretação da distribuição das classes<br>**Recomendação:** destacar proporções por classe de uso do solo |
 | **4.2 Visualizar mapas lado a lado** | **Feedback:** mapas coloridos facilitam a interpretação espacial<br>**Recomendação:** permitir zoom, sincronização e alternância de camadas |
 
+
+## HTA – Cenário 4: Comparação Temporal de Resultados (GeoSegment)
+
+O diagrama abaixo apresenta a **Hierarchical Task Analysis (HTA)** da tarefa de comparação temporal entre dois períodos no sistema GeoSegment.
+
+```mermaid
+flowchart TB
+
+A["0. Comparar resultados entre dois períodos"]
+
+A --> B["1. Acessar Dashboard"]
+B --> B1["1.1 Abrir GeoSegment"]
+B --> B2["1.2 Ir para Dashboard"]
+
+A --> C["2. Selecionar períodos"]
+C --> C1["2.1 Selecionar período atual"]
+C --> C2["2.2 Selecionar período anterior"]
+C --> C3["2.3 Confirmar seleção"]
+
+A --> D["3. Ativar comparação temporal"]
+D --> D1["3.1 Clicar em 'Comparação Temporal'"]
+D --> D2["3.2 Sistema carrega dados"]
+D --> D3["3.3 Sistema valida arquivos"]
+
+A --> E["4. Visualizar comparação no mapa"]
+E --> E1["4.1 Sobrepor mapas"]
+E --> E2["4.2 Destacar áreas alteradas"]
+E --> E3["4.3 Exibir cores por classe"]
+
+A --> F["5. Analisar métricas"]
+F --> F1["5.1 Visualizar gráficos comparativos"]
+F --> F2["5.2 Ver variação percentual"]
+F --> F3["5.3 Identificar mudanças"]
+
+A --> G["6. Interpretar resultados"]
+G --> G1["6.1 Avaliar aumento urbano"]
+G --> G2["6.2 Avaliar perda de vegetação"]
+G --> G3["6.3 Verificar confiabilidade"]
+
+A --> H["7. Utilizar resultados"]
+H --> H1["7.1 Exportar mapas"]
+H --> H2["7.2 Exportar gráficos"]
+H --> H3["7.3 Inserir no relatório"]
+```
+
+A --> H["7. Utilizar resultados"]
+H --> H1["7.1 Exportar mapas"]
+H --> H2["7.2 Exportar gráficos"]
+H --> H3["7.3 Inserir no relatório"]
