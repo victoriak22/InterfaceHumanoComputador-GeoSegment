@@ -26,6 +26,8 @@ A estrutura hierárquica das tarefas do sistema é representada no diagrama abai
 | **4.1.2 Analisar estatísticas por classe** | **Problema:** interpretação da distribuição das classes <br> **Recomendação:** destacar proporções por classe de uso do solo |
 | **4.2 Visualizar mapas lado a lado** | **Feedback:** mapas coloridos facilitam a interpretação espacial <br> **Recomendação:** permitir zoom, sincronização e alternância de camadas |
 
+--- 
+
 ## HTA – Cenário 4: Comparação Temporal de Resultados (GeoSegment)
 
 O diagrama abaixo apresenta a **Hierarchical Task Analysis (HTA)** da tarefa de comparação temporal entre dois períodos no sistema GeoSegment.
