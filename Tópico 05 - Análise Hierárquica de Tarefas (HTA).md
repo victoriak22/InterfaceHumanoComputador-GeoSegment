@@ -3,12 +3,11 @@
 Este documento descreve a Análise Hierárquica de Tarefas (HTA) do projeto GeoSegment, relacionando objetivos/operações com problemas e recomendações de usabilidade. As análises são baseadas nas personas definidas para o sistema, representando diferentes perfis de usuários e seus objetivos ao utilizar a plataforma, permitindo compreender como cada tipo de usuário interage com as funcionalidades do sistema.
 
 ---
+## Diagramas HTA
+
+As estruturas hierárquicas das tarefas do sistema são representadas nos diagramas abaixo:
 
 ## **HTA 1 — Ricardo Mendes (Fiscalização Ambiental)**
-
-## Diagrama HTA
-
-A estrutura hierárquica das tarefas do sistema é representada no diagrama abaixo:
 
 <img width="1270" height="618" alt="image" src="https://github.com/user-attachments/assets/85b2a7cc-a9cd-4f7b-9424-671a2099e8b8" />
 
@@ -92,6 +91,23 @@ A estrutura hierárquica das tarefas do sistema é representada no diagrama abai
 | **3.2 Analisar estatísticas por classe** | **Feedback:** percentuais de cada classe de uso do solo (vegetação, urbano, água etc.).<br>**Recomendação:** apresentar gráficos de barras ou pizza para facilitar a interpretação. |
 | **4. Apresentar resultados** | **Plano:** utilizar os dados em reuniões ou decisões estratégicas.<br>**Problema:** comunicação técnica pode ser difícil para alguns usuários.<br>**Recomendação:** gerar relatórios visuais resumidos e de fácil entendimento. |
 
+---
+## HTA 5 — Sr. Benedito (Proprietário Rural)
+
+<img width="923" height="371" alt="image" src="https://github.com/user-attachments/assets/11f03b07-4cfa-45f8-b012-fc998215ae0d" />
+
+| Objetivos / Operações | Problemas e Recomendações |
+|---|---|
+| **0. Verificar classificação da propriedade no mapa (1 > 2 > 3)** | **Input:** mapa segmentado da propriedade.<br>**Feedback:** visualização clara da área agrícola.<br>**Plano:** acessar mapa → localizar propriedade → verificar classificação.<br>**Recomendação:** interface simples e fácil de entender. |
+| **1. Acessar visualização do mapa (1.1 > 1.2)** | **Plano:** abrir sistema e encontrar propriedade.<br>**Problema:** dificuldade com tecnologia.<br>**Recomendação:** interface simplificada e navegação intuitiva. |
+| **1.1 Abrir sistema com ajuda do neto** | **Problema:** pouca familiaridade com tecnologia.<br>**Recomendação:** tutorial simples ou assistência inicial. |
+| **1.2 Localizar propriedade no mapa** | **Problema:** dificuldade em encontrar a área correta.<br>**Recomendação:** busca por coordenadas, endereço ou nome da propriedade. |
+| **2. Ver classificação da área (2.1 > 2.2)** | **Plano:** observar a classificação da terra apresentada no mapa.<br>**Problema:** cores ou termos técnicos difíceis de entender.<br>**Recomendação:** legenda clara e linguagem simples. |
+| **2.1 Identificar área agrícola** | **Problema:** confusão entre classes similares (ex.: vegetação esparsa e agricultura).<br>**Recomendação:** destacar visualmente a área da propriedade. |
+| **2.2 Comparar com situação real** | **Problema:** dúvidas sobre a precisão da classificação automática.<br>**Recomendação:** apresentar nível de confiança da classificação. |
+| **3. Confirmar resultado (3.1 > 3.2)** | **Plano:** verificar se a classificação apresentada corresponde à realidade da propriedade.<br>**Problema:** insegurança quanto à decisão ou interpretação dos dados.<br>**Recomendação:** oferecer suporte técnico ou explicação adicional sobre o resultado. |
+| **3.1 Verificar limites da propriedade** | **Problema:** limites podem não estar claros no mapa.<br>**Recomendação:** destacar contorno da propriedade com borda visível. |
+| **3.2 Confirmar classificação da área** | **Feedback:** confirmação visual da classe atribuída à propriedade.<br>**Recomendação:** permitir visualizar detalhes da classificação e possíveis ajustes. |
 
 ---
 
