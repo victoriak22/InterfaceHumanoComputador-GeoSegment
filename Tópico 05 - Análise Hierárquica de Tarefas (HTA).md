@@ -13,7 +13,6 @@ A estrutura hierárquica das tarefas do sistema é representada no diagrama abai
 <img width="1270" height="618" alt="image" src="https://github.com/user-attachments/assets/85b2a7cc-a9cd-4f7b-9424-671a2099e8b8" />
 
 
----
 | Objetivos / Operações | Problemas e Recomendações |
 |----------------------|---------------------------|
 | **0. Analisar uso do solo a partir de imagem aérea (1 > 2 > 3 > 4)** | **Input:** imagem aérea de alta resolução (ex.: 30 cm/px) <br> **Feedback:** exibição do mapa segmentado e estatísticas por classe <br> **Plano:** carregar imagem → configurar segmentação → executar processamento → analisar resultados <br> **Recomendação:** permitir acesso via navegador sem necessidade de softwares especializados |
@@ -32,9 +31,22 @@ A estrutura hierárquica das tarefas do sistema é representada no diagrama abai
 
 --- 
 
+
 ## **HTA 2 — Dra. Helena Silveira (Validação Científica)**
 
-## HTA – Cenário 4: Comparação Temporal de Resultados (GeoSegment)
+| Objetivos / Operações | Problemas e Recomendações |
+|---|---|
+| **0. Avaliar desempenho dos modelos de segmentação (1 > 2 > 3 > 4)** | Input: imagens de teste ou patches de validação.<br>Feedback: mapas segmentados e métricas de desempenho.<br>Plano: carregar dataset → selecionar modelo → executar inferência → analisar métricas.<br>Recomendação: disponibilizar métricas detalhadas e comparações entre modelos. |
+| **1. Carregar conjunto de imagens de teste (1.1 > 1.2)** | Plano: enviar dataset de validação.<br>Problema: dataset pode conter formatos inconsistentes.<br>Recomendação: validar automaticamente formatos e tamanho. |
+| **1.1 Selecionar patches de validação** | Problema: seleção manual pode ser demorada.<br>Recomendação: permitir upload em lote. |
+| **1.2 Confirmar upload das imagens** | Feedback: mostrar lista de arquivos enviados.<br>Recomendação: permitir remoção de arquivos antes do processamento. |
+| **2. Selecionar arquitetura de modelo (2.1 > 2.2)** | Plano: escolher arquitetura para teste.<br>Problema: dificuldade em comparar arquiteturas rapidamente.<br>Recomendação: mostrar métricas resumidas ao lado da seleção. |
+| **2.1 Escolher modelo (V0, V1 ou V2)** | Problema: diferenças técnicas pouco claras.<br>Recomendação: incluir descrição da arquitetura e dataset usado. |
+| **2.2 Ver métricas e arquitetura do modelo** | Problema: interpretação das métricas.<br>Recomendação: explicar métricas como mIoU e IoU por classe. |
+| **3. Executar inferência** | Ação: rodar segmentação pixel a pixel.<br>Problema: processamento pode ser demorado.<br>Recomendação: permitir execução em batch ou GPU. |
+| **4. Analisar resultados (4.1 / 4.2)** | Plano: avaliar resultados quantitativos e qualitativos.<br>Problema: interpretação visual difícil em classes raras.<br>Recomendação: destacar classes minoritárias. |
+| **4.1 Comparar métricas (mIoU, IoU por classe)** | Problema: comparação manual entre experimentos.<br>Recomendação: gráfico comparativo automático. |
+| **4.2 Avaliar qualidade visual das bordas** | Feedback: visualizar refinamento das bordas.<br>Recomendação: permitir zoom em regiões específicas. |
 
 O diagrama abaixo apresenta a **Hierarchical Task Analysis (HTA)** da tarefa de comparação temporal entre dois períodos no sistema GeoSegment.
 
