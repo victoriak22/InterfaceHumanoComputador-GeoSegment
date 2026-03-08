@@ -74,8 +74,26 @@ A estrutura hierárquica das tarefas do sistema é representada no diagrama abai
 | **5.2 Exportar estatísticas** | Download das estatísticas em CSV ou planilha. |
 
 ---
+## HTA 4 — Cláudia Torres (Gestora Pública)
+
+<img width="1110" height="416" alt="image" src="https://github.com/user-attachments/assets/81675e2f-5b26-4567-bd8b-eabd3457ffb8" />
+
+| Objetivos / Operações | Problemas e Recomendações |
+|---|---|
+| **0. Avaliar dados de uso do solo para planejamento urbano (1 > 2 > 3 > 4)** | **Input:** mapas temáticos e estatísticas geradas pelo sistema.<br>**Feedback:** visualizações claras e relatórios resumidos para análise.<br>**Plano:** acessar o dashboard → visualizar mapas → analisar estatísticas → apresentar resultados.<br>**Recomendação:** priorizar visualizações simples, intuitivas e de fácil interpretação. |
+| **1. Acessar dashboard do sistema (1.1 > 1.2)** | **Plano:** abrir o sistema e selecionar uma análise disponível.<br>**Problema:** dificuldade de navegação ou localização das análises.<br>**Recomendação:** utilizar menu simples e organização clara das análises. |
+| **1.1 Abrir plataforma GeoSegment** | **Problema:** acesso lento ou instável dependendo da conexão.<br>**Recomendação:** otimizar carregamento da plataforma no navegador. |
+| **1.2 Selecionar análise disponível** | **Problema:** múltiplas análises podem gerar confusão para o usuário.<br>**Recomendação:** destacar análises recentes ou mais relevantes. |
+| **2. Visualizar mapas temáticos (2.1 > 2.2)** | **Plano:** observar a distribuição espacial das classes no mapa.<br>**Problema:** excesso de camadas ou informações visuais.<br>**Recomendação:** permitir ativar ou desativar camadas do mapa. |
+| **2.1 Visualizar mapa segmentado** | **Feedback:** mapa colorido facilita a compreensão das classes de uso do solo.<br>**Recomendação:** incluir legenda clara e padronizada para cada classe. |
+| **2.2 Comparar áreas urbanas e vegetação** | **Problema:** dificuldade em perceber mudanças ou diferenças entre áreas.<br>**Recomendação:** permitir comparação temporal ou visualização lado a lado. |
+| **3. Analisar estatísticas (3.1 > 3.2)** | **Plano:** examinar os dados quantitativos gerados pela segmentação.<br>**Problema:** grande volume de números pode dificultar a interpretação.<br>**Recomendação:** utilizar gráficos e indicadores visuais para facilitar a análise. |
+| **3.1 Analisar estatísticas por histórico** | **Feedback:** visualização da evolução dos dados ao longo do tempo.<br>**Recomendação:** permitir filtros por período ou comparação entre análises. |
+| **3.2 Analisar estatísticas por classe** | **Feedback:** percentuais de cada classe de uso do solo (vegetação, urbano, água etc.).<br>**Recomendação:** apresentar gráficos de barras ou pizza para facilitar a interpretação. |
+| **4. Apresentar resultados** | **Plano:** utilizar os dados em reuniões ou decisões estratégicas.<br>**Problema:** comunicação técnica pode ser difícil para alguns usuários.<br>**Recomendação:** gerar relatórios visuais resumidos e de fácil entendimento. |
 
 
+---
 
 ```mermaid
 flowchart TB
