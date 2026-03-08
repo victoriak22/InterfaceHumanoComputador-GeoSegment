@@ -1,6 +1,10 @@
 # Análise Hierárquica de Tarefas (HTA) – GeoSegment
 
-Este documento descreve a Análise Hierárquica de Tarefas (HTA) do projeto **GeoSegment**, relacionando objetivos/operações com problemas e recomendações de usabilidade.
+Este documento descreve a Análise Hierárquica de Tarefas (HTA) do projeto GeoSegment, relacionando objetivos/operações com problemas e recomendações de usabilidade. As análises são baseadas nas personas definidas para o sistema, representando diferentes perfis de usuários e seus objetivos ao utilizar a plataforma, permitindo compreender como cada tipo de usuário interage com as funcionalidades do sistema.
+
+---
+
+## **HTA 1 — Ricardo Mendes (Fiscalização Ambiental)**
 
 ## Diagrama HTA
 
@@ -27,6 +31,8 @@ A estrutura hierárquica das tarefas do sistema é representada no diagrama abai
 | **4.2 Visualizar mapas lado a lado** | **Feedback:** mapas coloridos facilitam a interpretação espacial <br> **Recomendação:** permitir zoom, sincronização e alternância de camadas |
 
 --- 
+
+## **HTA 2 — Dra. Helena Silveira (Validação Científica)**
 
 ## HTA – Cenário 4: Comparação Temporal de Resultados (GeoSegment)
 
