@@ -51,22 +51,29 @@ A estrutura hierárquica das tarefas do sistema é representada no diagrama abai
 
 ---
 
-## **HTA — Felipe Antunes (Consultor Ambiental)**
+## **HTA 3 — Felipe Antunes (Consultor Ambiental)**
+
+<img width="1255" height="482" alt="image" src="https://github.com/user-attachments/assets/68211843-ad09-419f-8a80-bde59b3cb677" />
 
 | Objetivos / Operações | Problemas e Recomendações |
-|---|---|
-| **0. Gerar relatório de cobertura vegetal para licenciamento (1 > 2 > 3 > 4)** | **Input:** imagem da área do empreendimento.<br>**Feedback:** mapa segmentado e estatísticas de cobertura vegetal.<br>**Plano:** enviar imagem → executar segmentação → analisar resultados → gerar relatório.<br>**Recomendação:** permitir exportação rápida para relatórios técnicos. |
-| **1. Enviar imagem da área analisada (1.1 > 1.2)** | **Plano:** selecionar imagem do projeto.<br>**Problema:** tamanho elevado de imagens.<br>**Recomendação:** compressão automática ou upload progressivo. |
-| **1.1 Selecionar imagem do empreendimento** | **Problema:** erro na escolha da área.<br>**Recomendação:** mostrar preview geográfico da imagem. |
-| **1.2 Confirmar upload da imagem** | **Feedback:** imagem exibida no sistema.<br>**Recomendação:** permitir substituição rápida. |
-| **2. Processar segmentação (2.1 > 2.2)** | **Plano:** escolher modelo e iniciar análise.<br>**Problema:** usuário pode não entender modelos de IA.<br>**Recomendação:** sugerir modelo padrão. |
-| **2.1 Selecionar modelo automático** | **Problema:** escolha inadequada pode gerar resultados imprecisos.<br>**Recomendação:** recomendar modelo padrão. |
-| **2.2 Executar segmentação** | **Problema:** espera pelo processamento.<br>**Recomendação:** mostrar barra de progresso. |
-| **3. Analisar resultados** | **Plano:** interpretar mapa e estatísticas.<br>**Problema:** excesso de informação.<br>**Recomendação:** dashboard simplificado. |
-| **3.1 Visualizar mapa segmentado** | **Feedback:** mapa colorido facilita interpretação.<br>**Recomendação:** permitir zoom e filtros. |
-| **3.2 Ver estatísticas por classe** | **Problema:** números difíceis de interpretar.<br>**Recomendação:** usar gráficos e percentuais. |
-| **4. Exportar resultados** | **Plano:** utilizar dados em relatório técnico.<br>**Problema:** copiar dados manualmente.<br>**Recomendação:** exportar CSV ou PDF. |
+|----------------------|---------------------------|
+| **0. Gerar dados de cobertura vegetal para relatórios ambientais (1 > 2 > 3 > 4 > 5)** | **Input:** imagens da área de análise (ex.: ortofotos ou recortes de satélite). <br> **Feedback:** mapa segmentado e estatísticas por classe (vegetação, solo exposto, água etc.). <br> **Plano:** acessar sistema → carregar imagens → executar segmentação → analisar resultados → exportar dados para relatório. |
+| **1. Acessar o sistema (1.1 > 1.2)** | **Problema:** login demorado ou falha de autenticação. <br> **Recomendação:** autenticação simplificada (login rápido ou integração com conta corporativa). |
+| **1.1 Inserir credenciais** | Usuário digita login e senha ou usa autenticação integrada. |
+| **1.2 Visualizar histórico de análises** | Acesso ao histórico/timeline de processamentos anteriores. |
+| **2. Carregar imagens (2.1 > 2.2)** | **Problema:** arquivos grandes podem atrasar upload. <br> **Recomendação:** compressão automática e barra de progresso. |
+| **2.1 Selecionar imagem** | Escolha da área de interesse a partir do computador ou repositório. |
+| **2.2 Confirmar upload** | Pré-visualização da imagem e confirmação da área enviada. |
+| **3. Executar segmentação** | **Problema:** usuários podem não entender parâmetros técnicos. <br> **Recomendação:** botão único de execução com configurações padrão otimizadas. |
+| **4. Obter resultados (4.1 > 4.2 > 4.3)** | **Feedback:** visualização clara dos resultados para análise rápida. |
+| **4.1 Visualizar mapa segmentado** | Interpretação espacial das classes detectadas na imagem. |
+| **4.2 Copiar estatísticas** | Percentuais de cobertura vegetal e outras classes. |
+| **4.3 Inserir dados no relatório** | Exportação para planilha ou relatório técnico. |
+| **5. Exportar resultados (5.1 > 5.2)** | **Recomendação:** formatos compatíveis com relatórios ambientais. |
+| **5.1 Exportar mapa** | Download do mapa segmentado (PNG, GeoTIFF). |
+| **5.2 Exportar estatísticas** | Download das estatísticas em CSV ou planilha. |
 
+---
 
 
 
