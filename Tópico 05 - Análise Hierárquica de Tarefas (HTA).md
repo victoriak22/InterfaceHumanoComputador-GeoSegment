@@ -53,7 +53,7 @@ A estrutura hierárquica das tarefas do sistema é representada no diagrama abai
 
 ## **HTA 3 — Felipe Antunes (Consultor Ambiental)**
 
-<img width="1255" height="482" alt="image" src="https://github.com/user-attachments/assets/68211843-ad09-419f-8a80-bde59b3cb677" />
+<img width="1262" height="430" alt="image" src="https://github.com/user-attachments/assets/77bc6fd3-504a-4602-a020-473eaebcb463" />
 
 | Objetivos / Operações | Problemas e Recomendações |
 |----------------------|---------------------------|
