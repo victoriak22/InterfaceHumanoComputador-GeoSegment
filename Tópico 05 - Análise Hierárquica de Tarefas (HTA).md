@@ -49,7 +49,26 @@ A estrutura hierárquica das tarefas do sistema é representada no diagrama abai
 | **4.1 Comparar métricas (mIoU, IoU por classe)** | **Problema:** comparação manual entre experimentos.<br>Recomendação: gráfico comparativo automático. |
 | **4.2 Avaliar qualidade visual das bordas** | **Feedback:** visualizar refinamento das bordas.<br>Recomendação: permitir zoom em regiões específicas. |
 
-O diagrama abaixo apresenta a **Hierarchical Task Analysis (HTA)** da tarefa de comparação temporal entre dois períodos no sistema GeoSegment.
+---
+
+## **HTA — Felipe Antunes (Consultor Ambiental)**
+
+| Objetivos / Operações | Problemas e Recomendações |
+|---|---|
+| **0. Gerar relatório de cobertura vegetal para licenciamento (1 > 2 > 3 > 4)** | **Input:** imagem da área do empreendimento.<br>**Feedback:** mapa segmentado e estatísticas de cobertura vegetal.<br>**Plano:** enviar imagem → executar segmentação → analisar resultados → gerar relatório.<br>**Recomendação:** permitir exportação rápida para relatórios técnicos. |
+| **1. Enviar imagem da área analisada (1.1 > 1.2)** | **Plano:** selecionar imagem do projeto.<br>**Problema:** tamanho elevado de imagens.<br>**Recomendação:** compressão automática ou upload progressivo. |
+| **1.1 Selecionar imagem do empreendimento** | **Problema:** erro na escolha da área.<br>**Recomendação:** mostrar preview geográfico da imagem. |
+| **1.2 Confirmar upload da imagem** | **Feedback:** imagem exibida no sistema.<br>**Recomendação:** permitir substituição rápida. |
+| **2. Processar segmentação (2.1 > 2.2)** | **Plano:** escolher modelo e iniciar análise.<br>**Problema:** usuário pode não entender modelos de IA.<br>**Recomendação:** sugerir modelo padrão. |
+| **2.1 Selecionar modelo automático** | **Problema:** escolha inadequada pode gerar resultados imprecisos.<br>**Recomendação:** recomendar modelo padrão. |
+| **2.2 Executar segmentação** | **Problema:** espera pelo processamento.<br>**Recomendação:** mostrar barra de progresso. |
+| **3. Analisar resultados** | **Plano:** interpretar mapa e estatísticas.<br>**Problema:** excesso de informação.<br>**Recomendação:** dashboard simplificado. |
+| **3.1 Visualizar mapa segmentado** | **Feedback:** mapa colorido facilita interpretação.<br>**Recomendação:** permitir zoom e filtros. |
+| **3.2 Ver estatísticas por classe** | **Problema:** números difíceis de interpretar.<br>**Recomendação:** usar gráficos e percentuais. |
+| **4. Exportar resultados** | **Plano:** utilizar dados em relatório técnico.<br>**Problema:** copiar dados manualmente.<br>**Recomendação:** exportar CSV ou PDF. |
+
+
+
 
 ```mermaid
 flowchart TB
