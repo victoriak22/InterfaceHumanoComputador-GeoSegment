@@ -2,6 +2,15 @@
 
 Cada uma das **cinco grandes funcionalidades** do sistema (Tópico 01) possui um cenário de análise de problemas, vinculado ao integrante responsável e à(s) persona(s) correspondente(s). Em cada cenário utilizam-se os **elementos da técnica de cenários**: **objetivo** (o que se quer alcançar), **ambiente** (onde e quando ocorre), **atores** (quem participa), **planejamento** (ordem e condições), **ação** (o que o usuário faz), **evento** (o que o sistema faz ou responde) e **avaliação** (como se verifica o sucesso e o resultado).
 
+## Sumário
+
+- [Cenário 1 – Upload e segmentação de imagens (Vinicius Saidi Soares)](#cenário-1--upload-e-segmentação-de-imagens-vinicius-saidi-soares)
+- [Cenário 2 – Seleção de rede neural e validação técnica (Gustavo Dias Vicentin)](#cenário-2--seleção-de-rede-neural-e-validação-técnica-gustavo-dias-vicentin)
+- [Cenário 3 – Geração de Insights e Painéis para Apoio à Decisão Territorial (Deise Adriana Silva Araújo)](#cenário-3--geração-de-insights-e-painéis-para-apoio-à-decisão-territorial-deise-adriana-silva-araújo)
+- [Cenário 4 – Comparação temporal de resultados (Lucas Rebouças Silva)](#cenário-4--comparação-temporal-de-resultados-lucas-rebouças-silva)
+- [Cenário 5 – Dashboard inicial, Histórico e timeline (Victor Caldeira Iak)](#cenário-5--dashboard-inicial-histórico-e-timeline-victor-caldeira-iak)
+- [Rastreabilidade: Cenários × Funcionalidade × Responsável × Persona(s) × Tela(s)](#rastreabilidade-cenários--funcionalidade--responsável--personas--telas)
+
 ---
 
 ## Cenário 1 – Upload e segmentação de imagens (Vinicius Saidi Soares)

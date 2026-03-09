@@ -1,5 +1,18 @@
 # Análise de Concorrência – Plataformas de Geoprocessamento e Segmentação
 
+## Sumário
+
+- [1. Identificação dos Competidores e Público-Alvo](#1-identificação-dos-competidores-e-público-alvo)
+- [2. Categorias de Competidores](#2-categorias-de-competidores)
+- [3. Análise de UX (Experiência do Usuário) e Interface](#3-análise-de-ux-experiência-do-usuário-e-interface)
+- [4. Modelos de Interação](#4-modelos-de-interação)
+- [5. Comparação de Fluxo de Tarefas](#5-comparação-de-fluxo-de-tarefas)
+- [6. Carga Cognitiva](#6-carga-cognitiva)
+- [7. Pontos Positivos Extraídos da Concorrência](#7-pontos-positivos-extraídos-da-concorrência)
+- [8. Tendências Observadas](#8-tendências-observadas)
+- [9. Síntese da Análise](#9-síntese-da-análise)
+- [10. Decisões de design do GeoSegment à luz da concorrência](#10-decisões-de-design-do-geosegment-à-luz-da-concorrência)
+
 ---
 
 # 1. Identificação dos Competidores e Público-Alvo

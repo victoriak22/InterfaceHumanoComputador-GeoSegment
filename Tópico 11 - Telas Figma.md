@@ -6,6 +6,16 @@ Link para o projeto de telas do GeoSegment AI no Figma (Figma Make):
 
 Para editar ou ver todas as telas, abra o link no Figma (conta necessária).
 
+## Sumário
+
+- [Fundamentação do design (princípios e diretrizes de IHC)](#fundamentação-do-design-princípios-e-diretrizes-de-ihc)
+- [Padrões de interface utilizados](#padrões-de-interface-utilizados)
+- [Imagens das telas (design) e vínculo a personas e cenários](#imagens-das-telas-design-e-vínculo-a-personas-e-cenários)
+  - [Home inicial](#home-inicial)
+  - [Upload de imagem](#upload-de-imagem)
+  - [Seleção de rede](#seleção-de-rede)
+  - [Dashboard](#dashboard)
+
 ---
 
 ## Fundamentação do design (princípios e diretrizes de IHC)

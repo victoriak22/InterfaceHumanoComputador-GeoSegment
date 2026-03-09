@@ -2,7 +2,16 @@
 
 Este documento descreve a Análise Hierárquica de Tarefas (HTA) do projeto GeoSegment, relacionando objetivos/operações com problemas e recomendações de usabilidade. As análises são baseadas nas personas definidas para o sistema, representando diferentes perfis de usuários e seus objetivos ao utilizar a plataforma, permitindo compreender como cada tipo de usuário interage com as funcionalidades do sistema.
 
+## Sumário
+
+- [HTA 1 — Ricardo Mendes (Fiscalização Ambiental)](#hta-1--ricardo-mendes-fiscalização-ambiental)
+- [HTA 2 — Dra. Helena Silveira (Validação Científica)](#hta-2--dra-helena-silveira-validação-científica)
+- [HTA 3 — Felipe Antunes (Consultor Ambiental)](#hta-3--felipe-antunes-consultor-ambiental)
+- [HTA 4 — Cláudia Torres (Gestora Pública)](#hta-4--cláudia-torres-gestora-pública)
+- [HTA 5 — Sr. Benedito (Proprietário Rural)](#hta-5--sr-benedito-proprietário-rural)
+
 ---
+
 ## Diagramas HTA
 
 As estruturas hierárquicas das tarefas do sistema são representadas nos diagramas abaixo:

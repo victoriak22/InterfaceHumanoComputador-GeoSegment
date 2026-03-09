@@ -1,5 +1,23 @@
 # Definições Iniciais
 
+## Sumário
+
+- [1. Membros da Equipe](#1-membros-da-equipe)
+- [2. Título Original do TCC](#2-título-original-do-tcc)
+- [3. Orientador(a)](#3-orientadora)
+- [4. Desenvolvimento de Interface](#4-desenvolvimento-de-interface)
+- [5. Objetivo do Trabalho](#5-objetivo-do-trabalho)
+- [6. Produto Final](#6-produto-final)
+- [7. Usuário Final](#7-usuário-final)
+- [8. Benefícios ao Usuário](#8-benefícios-ao-usuário)
+- [9. Funcionalidades da Ferramenta (Visão do Usuário)](#9-funcionalidades-da-ferramenta-visão-do-usuário)
+- [10. Tecnologias e Ferramentas Computacionais](#10-tecnologias-e-ferramentas-computacionais)
+- [11. Contexto de Uso da Aplicação (IHC)](#11-contexto-de-uso-da-aplicação-ihc)
+- [12. Critérios de Qualidade em IHC](#12-critérios-de-qualidade-em-ihc)
+- [13. Matriz de rastreabilidade (Responsável × Funcionalidade × Cenário × Tela)](#13-matriz-de-rastreabilidade-responsável--funcionalidade--cenário--tela)
+
+---
+
 ## 1. Membros da Equipe
 
 | Nome | RA |
