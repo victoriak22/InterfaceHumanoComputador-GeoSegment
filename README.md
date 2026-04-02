@@ -25,7 +25,7 @@ O projeto tem como objetivo aplicar conceitos de **usabilidade**, **experiência
 | **Tópico 5** | Modelos de tarefas (GOMS) | [Visualizar GOMS](Tópico%2005%20-%20GOMS.md) |
 | **Tópico 5** | Modelos de tarefas (CTT) | [Visualizar CTT](Tópico%2005%20-%20CTT.md) |
 | **Tópico 6** | Abordagens teóricas de IHC (complementar) | X |
-| **Tópico 7** | Identificação de necessidades e requisitos de IHC | X |
+| **Tópico 7** | Métodos de Coleta de Dados | [Visualizar](Tópico%2007%20-%20Métodos%20de%20Coleta%20de%20Dados.md) |
 | **Tópico 8** | Processos de projeto de IHC | X |
 | **Tópico 9** | Modelo conceitual e Esquema de Signos | X |
 | **Tópico 10** | MoLIC (modelagem da interação) | X |
