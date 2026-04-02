@@ -65,5 +65,6 @@ O protótipo aplica princípios de usabilidade (Nielsen; Shneiderman) e decisõe
 ### Dashboard
 ![Dashboard](img/design/dashboard.png)
 - **Personas:** Ricardo Mendes, Cláudia Torres (insights e apresentação), Dra. Helena Silveira (métricas), Felipe Antunes (estatísticas e laudos).
-- **Cenários (Tópico 04):** Cenário 3 – Insights e Dashboard (Deise); Cenário 4 – Comparação temporal (Lucas); Cenário 5 – Histórico e timeline (Victor).
+- **Cenários (Tópico 04):** Cenário 3 – Insights e Dashboard (Deise Adriana Silva Araújo, R.A. 22.222.024-6); Cenário 4 – Comparação temporal (Lucas Rebouças Silva, R.A. 22.122.048-6); Cenário 5 – Histórico e timeline (Victor Caldeira Iak, R.A. 22.122.057-7).
 - **Funcionalidade (Tópico 01):** Geração de insights e dashboards; Comparação temporal; visão consolidada do histórico.
+- **IHC (CC8122):** O Dashboard agrega widgets (insights, comparação temporal, histórico) em uma única **arquitetura de informação**, evitando que o analista troque de contexto. O modo **Comparação temporal** (Cenário 4) reforça **usabilidade** e **comunicabilidade**: estado do modo visível, gráficos comparativos e mapa sobreposto sustentam **reconhecimento** e reduzem **carga cognitiva** frente a fluxos em QGIS/planilhas; isso conecta o protótipo aos tópicos de **princípios de design** e **planejamento de avaliação** da disciplina (ex.: tarefa dirigida de comparação entre dois períodos).

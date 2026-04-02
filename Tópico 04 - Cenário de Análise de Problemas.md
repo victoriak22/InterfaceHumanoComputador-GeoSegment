@@ -7,9 +7,9 @@ Cada uma das **cinco grandes funcionalidades** do sistema (Tópico 01) possui um
 - [Cenário 1 – Upload e segmentação de imagens (Vinicius Saidi Soares)](#cenário-1--upload-e-segmentação-de-imagens-vinicius-saidi-soares)
 - [Cenário 2 – Seleção de rede neural e validação técnica (Gustavo Dias Vicentin)](#cenário-2--seleção-de-rede-neural-e-validação-técnica-gustavo-dias-vicentin)
 - [Cenário 3 – Geração de Insights e Painéis para Apoio à Decisão Territorial (Deise Adriana Silva Araújo)](#cenário-3--geração-de-insights-e-painéis-para-apoio-à-decisão-territorial-deise-adriana-silva-araújo)
-- [Cenário 4 – Comparação temporal de resultados (Lucas Rebouças Silva)](#cenário-4--comparação-temporal-de-resultados-lucas-rebouças-silva)
+- [Cenário 4 – Comparação temporal de resultados (Lucas Rebouças Silva, R.A. 22.122.048-6)](#cenario-4-comparacao-temporal-lucas)
 - [Cenário 5 – Dashboard inicial, Histórico e timeline (Victor Caldeira Iak)](#cenário-5--dashboard-inicial-histórico-e-timeline-victor-caldeira-iak)
-- [Rastreabilidade: Cenários × Funcionalidade × Responsável × Persona(s) × Tela(s)](#rastreabilidade-cenários--funcionalidade--responsável--personas--telas)
+- [Rastreabilidade: Cenários × Funcionalidade × Responsável × R.A. × Persona(s) × Tela(s)](#rastreabilidade-topico04)
 
 ---
 
@@ -120,7 +120,9 @@ Ricardo acessa a aba "Insights e Dashboard" após a segmentação. O sistema cal
 Ao mesmo tempo, Cláudia Torres precisa apresentar dados claros em uma reunião da Secretaria de Meio Ambiente [5]. Ela não possui formação técnica em geoprocessamento e precisa de visualizações simples e compreensíveis [7]. Ela pensa: "Preciso explicar isso de forma simples para o conselho. Se o mapa for muito técnico, ninguém vai entender." Quem consome as informações geradas pelo sistema são tanto o ICMBio quanto gestores e o conselho; eles precisam de evidências visuais para tomar decisões, e em alguns fluxos seria desejável notificar envolvidos quando um relatório ou painel está pronto [9]. Cláudia depende do material que Ricardo (ou o próprio sistema) pode gerar: gráficos claros e resumo em linguagem não técnica [8]. O resultado esperado para ela é conseguir apresentar os dados na reunião e apoiar decisões baseadas em evidências [14]. Em que pontos a interação pode ser mais eficiente? Quando o sistema evita exportação manual, cálculo em planilhas e construção de gráficos externos, reduzindo carga cognitiva e permitindo que tanto o analista quanto a gestora passem do resultado técnico ao insight e à ação em minutos [14].
 
  
-## Cenário 4 – Comparação temporal de resultados (Lucas Rebouças Silva)
+<a id="cenario-4-comparacao-temporal-lucas"></a>
+
+## Cenário 4 – Comparação temporal de resultados (Lucas Rebouças Silva, R.A. 22.122.048-6)
 
 **Funcionalidade (Tópico 01):** Comparação temporal de resultados.  
 **Título:** Necessidade de comparar períodos (ex.: ano atual vs. anterior) para identificar mudanças e variações por classe.  
@@ -143,6 +145,10 @@ Ao mesmo tempo, Cláudia Torres precisa apresentar dados claros em uma reunião 
 **Cenário refinado:** Após ter segmentações de dois períodos (ou acessar dados já processados), o usuário ativa o modo "Comparação Temporal" no Dashboard (mesma aba utilizada em Cenário 3). O sistema sobrepõe os mapas e destaca as áreas de mudança em cores contrastantes; gráficos comparativos (ex.: barras ano atual vs. anterior) e variações percentuais por classe são exibidos. O usuário interpreta e pode incluir essa visão no relatório ou painel de insights. Avaliação: comparação obtida sem sair da interface, em minutos, com feedback visual imediato sobre a confiabilidade dos dados. _A sobreposição dos mapas e os gráficos comparativos respondem às perguntas 3 e 4; a indicação de variação percentual atende 5 e 6; a rapidez de obtenção resolve 10._
 
 **Problema evidenciado:** Trabalho manual de comparação em QGIS ou planilhas. **Valor da interface:** Comparação temporal integrada no Dashboard, com visualização e estatísticas automáticas (tela: Dashboard; ver Tópico 11).
+
+### Vínculo com o programa de IHC (CC8122)
+
+Em alinhamento com a ementa da disciplina, o cenário organiza **identificação de necessidades e requisitos de IHC** (perguntas 1–10) e a **organização do espaço de problema**: comparar períodos sem trocar de ferramenta, com mapa sobreposto, gráficos comparativos, variação por classe e acesso a dados históricos. Sob o prisma da **qualidade em IHC** (Barbosa e Silva; Benyon), a solução busca **usabilidade** (eficácia e eficiência ao substituir exportação manual por comparação na própria interface), **experiência de uso** fluida no Dashboard e **comunicabilidade** (resumos interpretativos, indicador de confiança do modelo, estado visível do modo “Comparação Temporal”), coerente com o Tópico 01. Em termos de **processador humano de informação** e **carga cognitiva**, controles e legendas claros reduzem alternativas ambíguas na escolha de períodos (Lei de Hick–Hyman) e favorecem apontamento e leitura de áreas-alvo nos mapas (Lei de Fitts), respeitando o perfil técnico de Ricardo e Felipe. A **arquitetura de informação** trata o modo temporal como visão dentro do mesmo **Dashboard** (protótipo no Figma, Tópico 11). Para **planejamento de avaliação**, propõe-se, por exemplo, observação de usuário com tarefa dirigida: *comparar dois anos processados e indicar a classe com maior variação percentual*, registrando erros, tempo e compreensão do feedback de confiabilidade.
 
 ---
 
@@ -171,14 +177,15 @@ Ao mesmo tempo, Cláudia Torres precisa apresentar dados claros em uma reunião 
 
 ---
 
+<a id="rastreabilidade-topico04"></a>
 
-## Rastreabilidade: Cenários × Funcionalidade × Responsável × Persona(s) × Tela(s)
+## Rastreabilidade: Cenários × Funcionalidade × Responsável × R.A. × Persona(s) × Tela(s)
 
-| Cenário | Funcionalidade (Tópico 01) | Responsável | Persona(s) | Tela(s) principal(is) (Tópico 11) |
-|---------|----------------------------|-------------|------------|-----------------------------------|
-| 1 – Upload e segmentação | Segmentação de imagens | Vinicius Saidi Soares | Ricardo Mendes | Home, Upload de imagem |
-| 2 – Seleção de modelo e validação técnica | Seleção de redes + informações técnicas | Gustavo Dias Vicentin | Dra. Helena Silveira | Upload, Seleção de rede, Dashboard |
-| 3 – Insights e Dashboard | Geração de insights e dashboards | Deise Adriana Silva Araújo | Ricardo Mendes, Cláudia Torres | Dashboard |
-| 4 – Comparação temporal | Comparação temporal de resultados | Lucas Rebouças Silva | Ricardo Mendes, Felipe Antunes | Dashboard |
-| 5 – Histórico e timeline | Dashboard inicial (Histórico e timeline) | Victor Caldeira Iak | Ricardo Mendes, Felipe Antunes | Home inicial, Dashboard |
+| Cenário | Funcionalidade (Tópico 01) | Responsável | R.A. | Persona(s) | Tela(s) principal(is) (Tópico 11) |
+|---------|----------------------------|-------------|------|------------|-----------------------------------|
+| 1 – Upload e segmentação | Segmentação de imagens | Vinicius Saidi Soares | 22.122.064-3 | Ricardo Mendes | Home, Upload de imagem |
+| 2 – Seleção de modelo e validação técnica | Seleção de redes + informações técnicas | Gustavo Dias Vicentin | 22.123.061-8 | Dra. Helena Silveira | Upload, Seleção de rede, Dashboard |
+| 3 – Insights e Dashboard | Geração de insights e dashboards | Deise Adriana Silva Araújo | 22.222.024-6 | Ricardo Mendes, Cláudia Torres | Dashboard |
+| 4 – Comparação temporal | Comparação temporal de resultados | Lucas Rebouças Silva | 22.122.048-6 | Ricardo Mendes, Felipe Antunes | Dashboard |
+| 5 – Histórico e timeline | Dashboard inicial (Histórico e timeline) | Victor Caldeira Iak | 22.122.057-7 | Ricardo Mendes, Felipe Antunes | Home inicial, Dashboard |
 <!-- merge artifact removed -->
