@@ -54,43 +54,43 @@ No **GeoSegment**, a entrevista foca quem trabalha com imagens aéreas, segmenta
 
 ### Roteiro de entrevista
 
-Perguntas-guia por bloco; ajustar linguagem ao perfil (analista, pesquisador, gestor, consultor).
+O roteiro foi estruturado em blocos temáticos, permitindo adaptação conforme o perfil do participante (analista, pesquisador ou gestor), mantendo, contudo, consistência na coleta dos dados.
 
-#### Perfil do usuário (Demografia e experiência)
+#### 1. Perfil do usuário (demografia e experiência)
 
 - Qual sua formação e há quanto tempo atua com análise ambiental ou geoespacial?
-- Em qual instituição ou tipo de projeto você trabalha hoje?
+- Em qual instituição ou tipo de projeto você trabalha atualmente?
 - Com que frequência lida com mapas de uso e cobertura do solo ou fiscalização territorial?
 
-#### Uso de tecnologia (Habilidades e ferramentas atuais)
+#### 2. Uso de tecnologia (habilidades e ferramentas)
 
-- Quais softwares ou serviços usa com mais frequência (GIS, planilhas, nuvem, notebooks)?
-- Como avalia seu próprio nível em geoprocessamento e em estatística ou modelos de IA?
-- Prefere trabalhar no navegador, em desktop instalado ou combinação dos dois?
+- Quais softwares ou serviços utiliza com maior frequência (GIS, planilhas, nuvem, notebooks)?
+- Como avalia seu nível de conhecimento em geoprocessamento e em modelos estatísticos ou de inteligência artificial?
+- Prefere trabalhar em ambiente web, desktop ou uma combinação de ambos?
 
-#### Tarefas (Frequência, objetivos e fluxos)
+#### 3. Tarefas (fluxos e objetivos)
 
-- Descreva um dia típico em que precise analisar imagem aérea ou cobertura do solo.
-- Com que frequência precisa comparar um período com outro ou gerar números para relatório?
-- De que etapas depende hoje para ir da imagem bruta a uma conclusão que possa apresentar?
+- Descreva um fluxo típico de trabalho envolvendo análise de imagens aéreas.
+- Com que frequência realiza comparações temporais ou gera relatórios quantitativos?
+- Quais etapas são necessárias para transformar dados brutos em uma análise utilizável?
 
-#### Dificuldades (Gargalos e erros comuns)
+#### 4. Dificuldades (gargalos e limitações)
 
-- O que mais atrasa ou frustra nesse fluxo (formato de arquivo, tempo de processamento, exportação)?
-- Quais erros ou retrabalhos aparecem com frequência?
-- Onde sente que a ferramenta atual “quebra” ou exige contorno manual?
+- Quais são os principais obstáculos enfrentados no processo atual?
+- Existem etapas que exigem retrabalho frequente?
+- Em que momentos as ferramentas utilizadas deixam de atender às necessidades?
 
-#### Necessidades (O que falta para melhorar o trabalho)
+#### 5. Necessidades (melhorias desejadas)
 
-- Que informações ou visões precisaria ver no mesmo lugar (mapa, gráficos, tabela, texto)?
-- O que precisaria para confiar mais no resultado automático da segmentação?
-- Que tipo de histórico ou rastreabilidade de processamentos seria útil?
+- Que tipo de informação gostaria de visualizar de forma integrada?
+- O que aumentaria sua confiança em resultados automatizados?
+- Que nível de rastreabilidade dos processamentos considera adequado?
 
-#### Sistema ideal (Expectativas e desejos futuros)
+#### 6. Sistema ideal (expectativas futuras)
 
-- Se pudesse desenhar uma tela única para apoiar sua decisão, o que ela mostraria?
-- Como gostaria de exportar ou compartilhar resultados (PDF, dados, apresentação)?
-- O que seria “sucesso” para você ao usar uma ferramenta como o GeoSegment no próximo ano?
+- Se pudesse projetar uma interface ideal, quais elementos seriam indispensáveis?
+- Como prefere exportar ou compartilhar resultados?
+- O que caracterizaria o sucesso de uma ferramenta como o GeoSegment no seu contexto de trabalho?
 
 ---
 
