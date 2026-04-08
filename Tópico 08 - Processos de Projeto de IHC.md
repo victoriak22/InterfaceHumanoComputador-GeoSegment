@@ -52,7 +52,7 @@ Com base nas capacidades e restrições identificadas, o desenvolvimento do *Geo
 
 Esta seção apresenta normas, leis e regulamentações que orientam o domínio de aplicação do *GeoSegment*, especialmente no contexto de monitoramento ambiental e gestão territorial no Brasil.
 
-### 1. Lei nº 9.985/2000 — Sistema Nacional de Unidades de Conservação (SNUC)
+### 1. Lei nº 9.985/2000 - Sistema Nacional de Unidades de Conservação (SNUC)
 
 A lei que institui o SNUC estabelece critérios para criação e gestão de unidades de conservação, incluindo a APA de Petrópolis, área de estudo do projeto. O sistema prevê monitoramento contínuo e elaboração de planos de manejo baseados em dados territoriais atualizados.
 
@@ -76,7 +76,7 @@ Link: https://www.ibama.gov.br/component/legislacao/?view=legislacao&legislacao=
 
 ---
 
-### 3. Política Nacional do Meio Ambiente — Lei nº 6.938/1981
+### 3. Política Nacional do Meio Ambiente - Lei nº 6.938/1981
 
 Estabelece diretrizes para o monitoramento ambiental no Brasil e cria o SISNAMA. Essa legislação legitima o uso de ferramentas automatizadas como o *GeoSegment* no apoio a órgãos como o ICMBio.
 
@@ -84,7 +84,7 @@ Link: http://www.planalto.gov.br/ccivil_03/leis/l6938.htm
 
 ---
 
-### 4. MapBiomas — Metodologia de Mapeamento de Uso e Cobertura do Solo
+### 4. MapBiomas - Metodologia de Mapeamento de Uso e Cobertura do Solo
 
 O MapBiomas constitui a principal referência nacional para classificação de uso e cobertura do solo. Sua taxonomia e metodologia orientam a evolução do *GeoSegment*, especialmente na definição de classes e padrões de análise adotados pela interface.
 
@@ -96,7 +96,7 @@ Link: https://brasil.mapbiomas.org
 
 Considerando o contexto apresentado, o projeto da interface e da arquitetura do sistema segue diretrizes consolidadas na área de IHC e desenvolvimento web.
 
-### 1. Nielsen — 10 Heurísticas de Usabilidade
+### 1. Nielsen - 10 Heurísticas de Usabilidade
 
 As heurísticas de Nielsen constituem um dos principais referenciais em IHC. No *GeoSegment*, destacam-se:
 
@@ -108,7 +108,7 @@ Link: https://www.nngroup.com/articles/ten-usability-heuristics
 
 ---
 
-### 2. W3C — Web Content Accessibility Guidelines (WCAG 2.1)
+### 2. W3C - Web Content Accessibility Guidelines (WCAG 2.1)
 
 As diretrizes WCAG 2.1 estabelecem padrões de acessibilidade baseados nos princípios perceptível, operável, compreensível e robusto.
 
@@ -122,7 +122,7 @@ Link: https://www.w3.org/TR/WCAG21
 
 ---
 
-### 3. Shneiderman — 8 Regras de Ouro
+### 3. Shneiderman - 8 Regras de Ouro
 
 As regras de Shneiderman reforçam princípios como consistência, feedback e prevenção de erros.
 
@@ -136,7 +136,7 @@ Link: https://www.cs.umd.edu/users/ben/goldenrules.html
 
 ---
 
-### 4. React — Boas Práticas de Desenvolvimento
+### 4. React - Boas Práticas de Desenvolvimento
 
 A documentação do React orienta padrões de componentização, gerenciamento de estado e organização do código, fundamentais para garantir a escalabilidade da interface frente à evolução do sistema.
 
@@ -144,7 +144,7 @@ Link: https://react.dev
 
 ---
 
-### 5. FastAPI — Boas Práticas de API REST
+### 5. FastAPI - Boas Práticas de API REST
 
 O FastAPI segue padrões OpenAPI e boas práticas RESTful, permitindo documentação automática, integração com outros sistemas e manutenção facilitada da API.
 
