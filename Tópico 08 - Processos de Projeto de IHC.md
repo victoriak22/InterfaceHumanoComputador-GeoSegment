@@ -1,6 +1,6 @@
 # Tópico 08 - Processos de Projeto de IHC
 
-Este documento apresenta uma análise dos **processos de projeto de Interação Humano-Computador (IHC)** aplicados ao desenvolvimento da plataforma *GeoSegment*, considerando tanto os aspectos técnicos quanto os princípios de design, restrições da plataforma e diretrizes externas que orientam sua construção.
+Este documento apresenta uma análise dos **processos de projeto de Interação Humano-Computador (IHC)** aplicados ao desenvolvimento da plataforma *GeoSegment*, incluindo a compreensão do contexto tecnológico, a adoção de diretrizes de design e a definição de metas de usabilidade que orientam a construção da interface.
 
 ---
 
@@ -26,7 +26,7 @@ No que se refere à infraestrutura de hardware:
 
 ## Capacidades e Restrições da Plataforma
 
-A compreensão das capacidades e limitações da plataforma é fundamental para orientar decisões de projeto em IHC, uma vez que esses fatores impactam diretamente a experiência do usuário e as possibilidades de interação.
+A compreensão das capacidades e limitações da plataforma é fundamental para orientar decisões de projeto em IHC, uma vez que esses fatores impactam diretamente a experiência do usuário e as possibilidades de interação. Esses aspectos servem como base para a definição dos princípios de design adotados no sistema.
 
 | **Capacidades** | **Restrições** |
 |----------------|---------------|
@@ -44,7 +44,7 @@ A compreensão das capacidades e limitações da plataforma é fundamental para 
 
 ## Princípios Gerais de Projeto
 
-O desenvolvimento do *GeoSegment* é orientado por princípios de projeto que consideram tanto o **contexto regulatório (aspecto de negócio)** quanto as **boas práticas de IHC e engenharia de software (aspecto de plataforma)**.
+Com base nas capacidades e restrições identificadas, o desenvolvimento do *GeoSegment* é orientado por princípios de projeto que consideram tanto o **contexto regulatório (aspecto de negócio)** quanto as **boas práticas de IHC e engenharia de software (aspecto de plataforma)**.
 
 ---
 
@@ -64,7 +64,7 @@ Link: http://www.planalto.gov.br/ccivil_03/leis/l9985.htm
 
 ### 2. Resolução CONAMA nº 369/2006
 
-Define condições para intervenções em áreas de preservação permanente. Os mapas gerados pelo *GeoSegment* podem servir como evidência técnica em processos de licenciamento e fiscalização.
+Define condições para intervenções em áreas de preservação permanente. Os mapas gerados pelo *GeoSegment* podem ser utilizados como evidência técnica em processos de licenciamento e fiscalização.
 
 Isso implica a necessidade de:
 
@@ -86,7 +86,7 @@ Link: http://www.planalto.gov.br/ccivil_03/leis/l6938.htm
 
 ### 4. MapBiomas — Metodologia de Mapeamento de Uso e Cobertura do Solo
 
-O MapBiomas é a principal referência nacional para classificação de uso e cobertura do solo. Sua taxonomia e metodologia orientam a evolução do *GeoSegment*, especialmente na definição de classes e padrões de análise.
+O MapBiomas constitui a principal referência nacional para classificação de uso e cobertura do solo. Sua taxonomia e metodologia orientam a evolução do *GeoSegment*, especialmente na definição de classes e padrões de análise adotados pela interface.
 
 Link: https://brasil.mapbiomas.org
 
@@ -94,15 +94,15 @@ Link: https://brasil.mapbiomas.org
 
 ## Aspecto de Plataforma
 
-Esta seção apresenta diretrizes e boas práticas que orientam o design e a implementação da interface e da arquitetura do sistema.
+Considerando o contexto apresentado, o projeto da interface e da arquitetura do sistema segue diretrizes consolidadas na área de IHC e desenvolvimento web.
 
 ### 1. Nielsen — 10 Heurísticas de Usabilidade
 
 As heurísticas de Nielsen constituem um dos principais referenciais em IHC. No *GeoSegment*, destacam-se:
 
-- visibilidade do estado do sistema (exibição de progresso)  
-- correspondência com o mundo real (uso de termos compreensíveis)  
-- controle e liberdade do usuário (possibilidade de refazer ações)  
+- visibilidade do estado do sistema (exibição de progresso durante a segmentação)  
+- correspondência com o mundo real (uso de termos como “vegetação” e “área urbana”)  
+- controle e liberdade do usuário (possibilidade de reenviar imagens)  
 
 Link: https://www.nngroup.com/articles/ten-usability-heuristics
 
@@ -110,13 +110,13 @@ Link: https://www.nngroup.com/articles/ten-usability-heuristics
 
 ### 2. W3C — Web Content Accessibility Guidelines (WCAG 2.1)
 
-As diretrizes WCAG 2.1 estabelecem padrões de acessibilidade baseados em quatro princípios: perceptível, operável, compreensível e robusto.
+As diretrizes WCAG 2.1 estabelecem padrões de acessibilidade baseados nos princípios perceptível, operável, compreensível e robusto.
 
-No *GeoSegment*, são especialmente relevantes:
+No *GeoSegment*, esses princípios impactam diretamente:
 
-- contraste de cores  
-- acessibilidade para usuários com daltonismo  
-- navegação por teclado  
+- a escolha da paleta de cores utilizada na representação das classes  
+- a distinção visual para usuários com daltonismo  
+- a navegação por teclado  
 
 Link: https://www.w3.org/TR/WCAG21
 
@@ -124,17 +124,13 @@ Link: https://www.w3.org/TR/WCAG21
 
 ### 3. Shneiderman — 8 Regras de Ouro
 
-As regras de Shneiderman reforçam princípios como:
-
-- consistência  
-- feedback informativo  
-- prevenção e tratamento de erros  
+As regras de Shneiderman reforçam princípios como consistência, feedback e prevenção de erros.
 
 Aplicações no *GeoSegment* incluem:
 
-- exibição de progresso da segmentação  
-- confirmação visual de sucesso  
-- mensagens claras de erro  
+- exibição de progresso durante o processamento  
+- confirmação visual de conclusão da tarefa  
+- mensagens de erro claras e orientadas à ação  
 
 Link: https://www.cs.umd.edu/users/ben/goldenrules.html
 
@@ -142,13 +138,7 @@ Link: https://www.cs.umd.edu/users/ben/goldenrules.html
 
 ### 4. React — Boas Práticas de Desenvolvimento
 
-A documentação do React orienta padrões de:
-
-- componentização  
-- gerenciamento de estado  
-- organização do código  
-
-Esses aspectos são fundamentais para garantir a escalabilidade da interface do *GeoSegment*.
+A documentação do React orienta padrões de componentização, gerenciamento de estado e organização do código, fundamentais para garantir a escalabilidade da interface frente à evolução do sistema.
 
 Link: https://react.dev
 
@@ -156,29 +146,19 @@ Link: https://react.dev
 
 ### 5. FastAPI — Boas Práticas de API REST
 
-O FastAPI segue padrões OpenAPI e boas práticas RESTful, permitindo:
-
-- documentação automática  
-- integração com outros sistemas  
-- manutenção facilitada  
+O FastAPI segue padrões OpenAPI e boas práticas RESTful, permitindo documentação automática, integração com outros sistemas e manutenção facilitada da API.
 
 Link: https://fastapi.tiangolo.com
 
 ---
 
-## Considerações Finais
-
-A análise evidencia que o projeto do *GeoSegment* está fundamentado em princípios sólidos de IHC, alinhados tanto ao contexto regulatório quanto às boas práticas de desenvolvimento e design de interfaces.
-
-A integração entre capacidades técnicas, restrições da plataforma e diretrizes externas contribui para a construção de uma solução coerente, escalável e orientada às necessidades reais dos usuários no domínio ambiental.
-
----
-
 ## Metas de Usabilidade
 
-As metas de usabilidade do *GeoSegment* foram definidas com base na proposta de **Nielsen (1993)**, que estrutura a usabilidade em cinco atributos mensuráveis, e no ciclo de engenharia de usabilidade de **Mayhew (1999)**, que orienta a definição de metas quantitativas e qualitativas alinhadas ao perfil dos usuários e às tarefas principais do sistema.
+Com base nos princípios apresentados, são definidas metas de usabilidade mensuráveis, alinhadas às tarefas centrais do sistema e ao perfil dos usuários.
 
-As tarefas consideradas como referência são as três ações centrais da ferramenta:
+As metas são fundamentadas na proposta de **Nielsen (1993)** e no ciclo de engenharia de usabilidade de **Mayhew (1999)**.
+
+As tarefas consideradas como referência são:
 
 - envio de imagem aérea  
 - geração do mapa segmentado  
@@ -190,78 +170,63 @@ As tarefas consideradas como referência são as três ações centrais da ferra
 
 #### Análise qualitativa
 
-O *GeoSegment* deve ser utilizável por analistas ambientais e gestores territoriais que não necessariamente possuem formação em computação ou experiência com ferramentas de aprendizado de máquina. Nesse contexto, a interface deve ser autoexplicativa, permitindo que o usuário compreenda o fluxo de uso sem necessidade de treinamento prévio.
-
-O fluxo principal — envio da imagem, processamento e visualização do resultado — deve ser apresentado de forma linear e intuitiva, com elementos visuais que orientem claramente cada etapa.
+O *GeoSegment* deve ser utilizável por analistas ambientais e gestores territoriais que não necessariamente possuem formação em computação. A interface deve ser autoexplicativa e permitir compreensão imediata do fluxo de uso.
 
 #### Meta quantitativa
 
-- Um usuário sem experiência prévia deve ser capaz de completar o fluxo completo em até **3 minutos**, sem auxílio externo.
+- Completar o fluxo em até **3 minutos**, sem auxílio.
 
 ---
 
 ### 2. Eficiência de Uso (*Efficiency*)
 
-#### Análise qualitativa
-
-Para usuários recorrentes, como analistas que realizam monitoramentos periódicos, a interface não deve introduzir fricção no fluxo de trabalho. A eficiência está relacionada ao tempo necessário para executar ações na interface, e não ao tempo de processamento do modelo.
-
-Elementos como localização de comandos, visibilidade de resultados e organização da informação devem permitir execução rápida das tarefas.
-
 #### Meta quantitativa
 
-- Um usuário experiente deve completar o fluxo completo em até **1 minuto**, desconsiderando o tempo de processamento no servidor.  
-- O mapa segmentado e as proporções por classe devem estar visíveis na **mesma tela**, sem necessidade de navegação adicional.
+- Completar o fluxo em até **1 minuto** (sem processamento).  
+- Informações visíveis na mesma tela.
 
 ---
 
-### 3. Facilidade de Memorização (*Memorability*)
-
-#### Análise qualitativa
-
-Considerando o uso intermitente da ferramenta, a interface deve permitir que o usuário retome sua utilização sem necessidade de reaprendizado. A consistência visual, especialmente na representação das classes, é essencial para esse objetivo.
-
-A paleta de cores adotada deve ser intuitiva e semanticamente coerente (por exemplo, verde para vegetação e azul para água), reduzindo a dependência de consulta à legenda.
+### 3. Memorização (*Memorability*)
 
 #### Meta quantitativa
 
-- Um usuário que não acessa a ferramenta há **30 dias** deve ser capaz de retomar o fluxo completo em até **2 minutos**, sem suporte externo.  
-- A legenda de cores deve ser corretamente interpretada em pelo menos **80% dos casos** em testes de memória.
+- Retomar uso em até **2 minutos** após 30 dias.  
+- 80% de reconhecimento das cores.
 
 ---
 
-### 4. Tolerância a Erros (*Error Rate*)
-
-#### Análise qualitativa
-
-Os principais erros esperados envolvem:
-
-- envio de arquivos em formato incompatível  
-- imagens com resolução inadequada  
-- tentativas de processamento de arquivos acima da capacidade da plataforma  
-
-A interface deve fornecer mensagens claras, orientadas à ação, evitando termos técnicos ou mensagens de erro internas (como códigos HTTP ou stack traces).
+### 4. Tolerância a Erros
 
 #### Meta quantitativa
 
-- Mensagens de erro devem ser exibidas em até **3 segundos** após a ocorrência.  
-- A taxa de erros não recuperados deve ser inferior a **10%** em testes com usuários reais.
+- Erros exibidos em até **3 segundos**.  
+- Menos de **10% de abandono**.
 
 ---
 
-### 5. Satisfação Subjetiva (*Satisfaction*)
-
-#### Análise qualitativa
-
-A satisfação do usuário está diretamente relacionada à confiança nos resultados gerados pela ferramenta. Para isso, a interface deve:
-
-- apresentar métricas de desempenho de forma acessível  
-- permitir comparação visual entre imagem original e resultado segmentado  
-- evitar terminologia excessivamente técnica  
-
-Esses elementos contribuem para a percepção de confiabilidade e utilidade da ferramenta no apoio à tomada de decisão.
+### 5. Satisfação
 
 #### Meta quantitativa
 
-- Ao menos **75% dos usuários** devem avaliar a ferramenta com nota ≥ 4 (em escala de 1 a 5) em critérios de clareza, confiança e facilidade de uso.  
-- A pontuação mínima aceitável no **SUS (System Usability Scale)** é de **70 pontos**.
+- 75% com nota ≥ 4  
+- SUS ≥ 70
+
+---
+
+## Avaliação das Metas
+
+As metas serão avaliadas por meio de:
+
+- testes com usuários reais  
+- cronometragem de tarefas  
+- observação direta  
+- aplicação do SUS  
+
+---
+
+## Considerações Finais
+
+A análise evidencia que o projeto do *GeoSegment* está fundamentado em princípios sólidos de IHC, alinhados tanto ao contexto regulatório quanto às boas práticas de desenvolvimento e design de interfaces.
+
+A integração entre capacidades técnicas, restrições da plataforma, diretrizes de projeto e metas de usabilidade contribui para a construção de uma solução coerente, escalável e orientada às necessidades reais dos usuários no domínio ambiental.
