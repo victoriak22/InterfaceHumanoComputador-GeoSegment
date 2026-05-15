@@ -1,17 +1,16 @@
 # Tópico 13 — Avaliações Heurísticas
 
-## Modelos Avaliados
+---
+
+# Relatório Consolidado de Avaliação Heurística — GeoSegment
+
+## 1. Introdução
+ **Modelos Avaliados**
 
 * [Modelo 01](./Modelo%2001)
 * [Modelo 02](./Modelo%2002)
 * [Modelo 03](./Modelo%2003)
 * [Modelo 04](./Modelo%2004)
-
----
-
-# Relatório Consolidado de Avaliação Heurística de Usabilidade — GeoSegment
-
-## 1. Introdução
 
 O presente relatório apresenta os resultados da avaliação heurística realizada no sistema **GeoSegment**, plataforma desenvolvida para análise temporal e segmentação de imagens utilizando modelos de Inteligência Artificial.
 
