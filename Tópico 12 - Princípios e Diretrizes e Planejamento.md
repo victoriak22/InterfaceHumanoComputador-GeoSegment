@@ -1,4 +1,4 @@
-# Tópico 12
+# Tópico 12 - Princípios, Diretrizes e Planejamentos de IHC
 
 - [Princípios e Diretrizes para o Design de IHC](./Principios-e-Diretrizes.md)
 
