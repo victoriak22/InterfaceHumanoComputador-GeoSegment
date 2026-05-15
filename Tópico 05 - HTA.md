@@ -8,4 +8,4 @@
 
 - [HTA 4 – Comparação Temporal](./Tópico%2005%20-%20HTA/HTA%204%20%E2%80%93%20Comparacao_Temporal.md)
 
-- [HTA 5 – Dashboard Inicial e Histórico](./Tópico%2005%20-%20HTA/HTA%205%20%E2%80%93%20Dashboard_Inicial-Historico.md)
+- [HTA 5 – Dashboard Inicial e Histórico](./Tópico%2005%20-%20HTA/HTA%205%20%E2%80%93%20Dashboard_Inicial_Historico.md)
