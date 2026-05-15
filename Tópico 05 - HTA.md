@@ -1,11 +1,11 @@
 # Tópico 05 - HTA
 
-- [HTA 1 – Upload e Segmentação de Imagens](./HTA%201%20%E2%80%93%20Upload%20e%20Segmenta%C3%A7%C3%A3o%20de%20Imagens.md)
+- [HTA 1 – Upload e Segmentação de Imagens](./HTA%201%20%E2%80%93%20Upload_Segmentacao_Imagens.md)
 
-- [HTA 2 – Seleção de Rede Neural](./HTA%202%20%E2%80%93%20Sele%C3%A7%C3%A3o%20de%20Rede%20Neural.md)
+- [HTA 2 – Seleção de Rede Neural](./HTA%202%20%E2%80%93%20Selecao_Rede_Neural.md)
 
-- [HTA 3 – Geração de Insights e Dashboards](./HTA%203%20%E2%80%93%20Gera%C3%A7%C3%A3o%20de%20Insights%20e%20Dashboards.md)
+- [HTA 3 – Geração de Insights](./HTA%203%20%E2%80%93%20Geracao_Insights.md)
 
-- [HTA 4 – Comparação Temporal](./HTA%204%20%E2%80%93%20Compara%C3%A7%C3%A3o%20Temporal%20HTA%204%20%E2%80%93%20Compara%C3%A7%C3%A3o%20Temporal.md)
+- [HTA 4 – Comparação Temporal](./HTA%204%20%E2%80%93%20Comparacao_Temporal.md)
 
-- [HTA 5 – Dashboard Inicial e Histórico](./HTA%205%20%E2%80%93%20Dashboard%20Inicial%20e%20Hist%C3%B3rico.md)
+- [HTA 5 – Dashboard Inicial e Histórico](./HTA%205%20%E2%80%93%20Dashboard_Inicial-Historico.md)
