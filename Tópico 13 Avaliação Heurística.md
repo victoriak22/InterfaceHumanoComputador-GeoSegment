@@ -17,19 +17,19 @@ Este tópico apresenta as avaliações heurísticas realizadas no sistema GeoSeg
 
 # Tabelas Comparativas
 
-* [Tabela Comparativa — Modelo 01](./Tabela_Comparacao_Modelo01.md)
-* [Tabela Comparativa — Modelo 02](./Tabela_Comparacao_Modelo02.md)
-* [Tabela Comparativa — Modelo 03](./Tabela_Comparacao_Modelo03.md)
-* [Tabela Comparativa — Modelo 04](./Tabela_Comparacao_Modelo04.md)
+* [Tabela Comparativa — Modelo 01](./Topico%2013%20-%20Avaliacoes%20Heuristicas/Tabela_Comparacao_Modelo01.md)
+* [Tabela Comparativa — Modelo 02](./Topico%2013%20-%20Avaliacoes%20Heuristicas/Tabela_Comparacao_Modelo02.md)
+* [Tabela Comparativa — Modelo 03](./Topico%2013%20-%20Avaliacoes%20Heuristicas/Tabela_Comparacao_Modelo03.md)
+* [Tabela Comparativa — Modelo 04](./Topico%2013%20-%20Avaliacoes%20Heuristicas/Tabela_Comparacao_Modelo04.md)
 
 ---
 
 # Fluxograma
 
-* [Fluxograma da Avaliação](./Fluxograma.md)
+* [Fluxograma da Avaliação](./Topico%2013%20-%20Avaliacoes%20Heuristicas/Fluxograma.md)
 
 ---
 
 # Relatório Final
 
-* [Relatório de Avaliação Heurística](./Relatorio_Avaliacao_Heuristica.md)
+* [Relatório de Avaliação Heurística](./Topico%2013%20-%20Avaliacoes%20Heuristicas/Relatorio_Avaliacao_Heuristica.md)
