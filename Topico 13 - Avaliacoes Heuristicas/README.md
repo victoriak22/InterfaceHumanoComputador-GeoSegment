@@ -1,7 +1,3 @@
-# Tópico 13 — Avaliações Heurísticas
-
----
-
 # Relatório Consolidado de Avaliação Heurística — GeoSegment
 
 ## 1. Introdução
