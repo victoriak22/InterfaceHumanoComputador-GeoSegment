@@ -128,9 +128,8 @@ Os métodos de avaliação foram selecionados com base nas perguntas definidas n
 **Protocolo:** Aplicação da técnica Think-Aloud (pensar em voz alta), em que os participantes verbalizam suas ações, dúvidas e percepções durante a execução das tarefas. As atividades serão apresentadas em sequência previamente definida, sem interferência direta do observador.<br>
 **Dados coletados:** Tempo de execução das tarefas, quantidade de erros cometidos, dificuldades observadas, comentários espontâneos dos participantes, momentos de hesitação ou confusão e respostas ao questionário pós-teste SUS (System Usability Scale).<br>
 
-### Questionário Pós-Teste – SUS (System Usability Scale)
-
-Após a realização do teste de usabilidade, os participantes responderão ao questionário SUS (System Usability Scale), proposto por John Brooke, composto por 10 questões em escala Likert de 1 a 5. A aplicação do questionário permitirá obter uma pontuação geral de usabilidade variando de 0 a 100, possibilitando uma avaliação quantitativa da experiência de uso do sistema. O SUS é amplamente utilizado e validado na literatura por fornecer resultados consistentes e comparáveis em avaliações de usabilidade.
+### Questionário Pós-Teste — GeoSegment AI
+Após a realização do teste de usabilidade, os participantes responderão a um questionário pós-teste elaborado pela equipe, composto por questões que combinam perguntas fechadas e abertas. As questões fechadas utilizam escalas de múltipla escolha para avaliar facilidade de uso, clareza das informações, intuitividade da navegação e satisfação geral com a interface. As questões abertas permitem que o participante indique funcionalidades de destaque, dificuldades encontradas e sugestões de melhoria. Essa combinação possibilita obter tanto dados quantitativos sobre a experiência de uso quanto percepções qualitativas detalhadas sobre a interação com o sistema.
 
 ---
 
