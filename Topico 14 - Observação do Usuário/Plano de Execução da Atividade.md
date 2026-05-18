@@ -69,11 +69,11 @@ O avaliador recebeu o participante na call e forneceu um breve contexto: Heitor 
 
 | # | Tarefa Apresentada |
 |---|---|
-| T1 | Acessar o sistema e enviar a imagem para processamento |
-| T2 | Antes de processar, escolher o modelo mais preciso disponível e anotar seu valor de MIoU |
-| T3 | Com o processamento concluído, descobrir qual classe de uso do solo ocupa a maior área |
-| T4 | Verificar se a área urbana cresceu entre este ano e o ano passado usando a comparação temporal |
-| T5 | Reacessar uma segmentação realizada há duas semanas pelo histórico |
+| T1 | Acessar o sistema GeoSegment AI e realizar o upload da imagem da APA Petrópolis para processamento|
+| T2 | Antes do processamento, selecionar o modelo com maior precisão disponível e identificar o valor de precisão apresentado|
+| T3 | Após o processamento da imagem, identificar qual classe de uso do solo ocupa a maior área analisada |
+| T4 | Utilizar a funcionalidade de comparação temporal para verificar se houve crescimento da área urbana entre o ano atual e o anterior |
+| T5 | Reacessar, por meio do histórico da plataforma, uma segmentação realizada anteriormente |
 
 ### Observações Durante a Execução
 
