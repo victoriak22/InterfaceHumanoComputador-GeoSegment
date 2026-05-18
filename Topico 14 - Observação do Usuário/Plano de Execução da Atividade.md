@@ -139,7 +139,6 @@ Problemas mais recorrentes, identificados por 3 ou mais avaliadores:
 | Mensagens de erro genéricas do navegador, sem integração visual | H9 — Recuperação de erros | 2 — Simples |
 | Sem tutorial, onboarding ou ajuda contextual | H10 — Ajuda e documentação | 2 — Simples |
 | Ausência de indicador de progresso em fluxos multi-etapa | Item 4.3 — Instruções | -1 — Não atende |
-| Área de login sem suporte a e-mail como ID alternativo | Item 6.7 — Usabilidade | -1 — Não atende |
 
 **Escala de severidade:** 0 = sem importância · 1 = cosmético · 2 = simples · 3 = grave · 4 = catastrófico
 
@@ -150,7 +149,7 @@ Problemas mais recorrentes, identificados por 3 ou mais avaliadores:
 ### Problemas Mais Frequentes e Críticos
 
 **Terminologia técnica na seleção de modelos**  
-O problema de maior recorrência e impacto — confirmado diretamente no teste com usuário — foi o uso do termo "MIoU" sem explicação. O participante não reconheceu o termo, o que exigiu intervenção do avaliador. A substituição por "precisão" foi validada pelo próprio usuário durante a sessão.
+O problema de maior recorrência e impacto, confirmado diretamente no teste com usuário, foi o uso do termo "MIoU" sem explicação. O participante não reconheceu o termo, o que exigiu intervenção do avaliador. A substituição por "precisão" foi validada pelo próprio usuário durante a sessão.
 
 **Prevalência do menu lateral como guia primário de navegação**  
 O participante ignorou elementos de destaque na área central (botão "Nova Segmentação", insights de comparação disponíveis na tela de resultados) e preferiu consistentemente os rótulos diretos da barra lateral. Isso sugere que o fluxo principal precisa de reforço visual ou que os rótulos centrais devem ser revisados para maior clareza.
@@ -174,3 +173,13 @@ O participante ignorou elementos de destaque na área central (botão "Nova Segm
 
 - Adicionar indicador de seção ativa ou âncoras na tela Sobre durante a rolagem
 - Padronizar espaçamentos e tamanhos de componentes entre cards de diferentes telas
+
+## 6. Conclusão
+
+A avaliação de usabilidade do GeoSegment AI demonstrou que o protótipo apresenta uma interface visualmente agradável, organizada e de fácil navegação, permitindo que o participante concluísse todas as tarefas propostas com sucesso. Mesmo sem treinamento prévio, o usuário conseguiu compreender o fluxo geral do sistema e executar as funcionalidades principais de forma relativamente rápida e intuitiva.
+
+Os resultados obtidos por meio da técnica Think-Aloud e da avaliação heurística evidenciaram pontos positivos importantes, como a clareza visual da interface, a boa organização do menu lateral e a facilidade de localização das funcionalidades principais. Em contrapartida, também foram identificados problemas relacionados principalmente ao uso de terminologias técnicas pouco acessíveis, ausência de indicadores de progresso e limitações na orientação inicial ao usuário.
+
+O teste também permitiu compreender melhor o comportamento de navegação do participante, que priorizou consistentemente a barra lateral como principal guia de interação, ignorando elementos centrais da interface. Além disso, a dificuldade de compreensão do termo “MIoU” reforçou a necessidade de adaptar a linguagem da plataforma para usuários não especializados.
+
+De modo geral, os resultados indicam que o GeoSegment AI possui boa base de usabilidade e potencial de utilização por usuários sem experiência técnica na área ambiental. As recomendações levantadas ao longo da avaliação poderão contribuir para tornar a plataforma mais intuitiva, acessível e eficiente em futuras versões do sistema.
