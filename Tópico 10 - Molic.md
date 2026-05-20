@@ -6,3 +6,4 @@
 - [Molic 3 - Comparação Temporal](https://github.com/victoriak22/InterfaceHumanoComputador-GeoSegment/blob/main/Topico%2010%20-%20Molic/Molic%203%20-%20Compara%C3%A7%C3%A3o%20Temporal%20(Lucas%20Reboucas%20Silva).md)
 
 - [Molic 4 - Histórico e Relatórios](https://github.com/victoriak22/InterfaceHumanoComputador-GeoSegment/blob/main/Topico%2010%20-%20Molic/Molic%204%20-%20Hist%C3%B3rico%20e%20Relat%C3%B3rios%20(Deise%20Ara%C3%BAjo%20e%20Victor%20Iak).md)
+ 
