@@ -7,7 +7,7 @@
 
 | Objetivos / Operações | Problemas e Recomendações |
 |---|---|
-| **0. Selecionar modelo de rede neural (1 → 2 → 3 → 4)** | **Input:** imagem previamente carregada no sistema <br> **Feedback:** confirmação do modelo selecionado e execução da segmentação <br> **Plano:** acessar tela de seleção → analisar modelos disponíveis → comparar desempenho → selecionar modelo <br> **Recomendação:** apresentar informações técnicas de forma clara e acessível para diferentes níveis de usuários |
+| **0. Selecionar modelo de rede neural (1 > 2 > 3 > 4)** | **Input:** imagem previamente carregada no sistema <br> **Feedback:** confirmação do modelo selecionado e execução da segmentação <br> **Plano:** acessar tela de seleção → analisar modelos disponíveis → comparar desempenho → selecionar modelo <br> **Recomendação:** apresentar informações técnicas de forma clara e acessível para diferentes níveis de usuários |
 | **1. Acessar a tela de seleção de modelo (1.1 → 1.2)** | **Plano:** finalizar upload da imagem → acessar página de seleção de rede <br> **Problema:** usuário pode não saber onde acessar a seleção de modelos <br> **Recomendação:** mostrar claramente a próxima etapa após o upload |
 | **1.1 Finalizar upload da imagem** | **Problema:** usuário pode tentar acessar seleção de modelo antes do upload terminar <br> **Recomendação:** bloquear acesso até conclusão do upload |
 | **1.2 Ir para página Seleção de Rede** | **Problema:** navegação entre etapas pode ser confusa <br> **Recomendação:** indicar fluxo de navegação guiado |
