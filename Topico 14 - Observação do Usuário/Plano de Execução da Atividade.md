@@ -89,7 +89,7 @@ Os cenários e objetivos das tarefas foram descritos de forma clara, garantindo 
 ---
 
 ### 2.5 Observação da Execução das Tarefas
-Durante a execução, o avaliador manteve uma postura observacional e neutra, permitindo que o usuário realizasse as tarefas de forma espontânea, sem interferência direta. Foram registrados o sucesso ou falha das tarefas, as dificuldades encontradas e os erros cometidos, além de observações qualitativas relevantes.
+Durante a execução, o avaliador manteve uma postura observacional e neutra, permitindo que o usuário realizasse as tarefas de forma espontânea, sem interferência direta. Foram registrados o sucesso, as dificuldades encontradas e os erros cometidos, além de observações qualitativas relevantes.
 
 ---
 
