@@ -1,4 +1,4 @@
-# Tópico 9 — Cenário de Iteração
+# Tópico 9 — Cenário de Interação
 
 ## Cenários de Interação
 
