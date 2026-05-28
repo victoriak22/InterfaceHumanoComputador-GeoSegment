@@ -5,7 +5,7 @@
 | análise de resultados da segmentação | U: Preciso interpretar os **resultados** da segmentação para gerar um **relatório**. |
 | > acessar dashboard | D: O sistema apresenta os **resultados** da segmentação de forma consolidada. |
 | > visualizar distribuição | U: Quero entender a distribuição das **classes** na imagem. |
-|  | D: O sistema apresenta informações organizadas sobre as **classes** identificadas. |
+|  | D: O sistema apresenta informações organizadas sobre as **classes** identificadas. | 
 | > analisar dados visuais | U: Quero visualizar os **dados** de forma clara. |
 |  | D: O sistema fornece **representações visuais** para facilitar a interpretação. |
 | > comparar períodos | U: Quero verificar **mudanças** ao longo do **tempo**. |
