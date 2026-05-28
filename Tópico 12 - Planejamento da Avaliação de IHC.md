@@ -1,4 +1,4 @@
-# 1. Preparação da Avaliação
+# 1. Planejamento da Avaliação de IHC
 
 ### 1.1 Definição dos Objetivos do Teste
 O teste de usabilidade teve como objetivo avaliar:
