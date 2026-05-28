@@ -1,20 +1,20 @@
-## Design Centrado na Comunicação – Cenário 3: Geração de Insights e Painéis (Deise Adriana Silva Araújo)
+## Design Centrado na Comunicação – Cenário 2: Seleção de Rede Neural e Validação Técnica (Gustavo Dias Vicentin)
 
 | tópico > subtópico (diálogo) | falas e signos |
 |-----------------------------|----------------|
-| análise de resultados da segmentação | U: Preciso interpretar os **resultados** da segmentação para gerar um **relatório**. |
-| > acessar dashboard | D: O sistema apresenta os **resultados** da segmentação de forma consolidada. |
-| > visualizar distribuição | U: Quero entender a distribuição das **classes** na imagem. |
-|  | D: O sistema apresenta informações organizadas sobre as **classes** identificadas. |
-| > analisar dados visuais | U: Quero visualizar os **dados** de forma clara. |
-|  | D: O sistema fornece **representações visuais** para facilitar a interpretação. |
-| > comparar períodos | U: Quero verificar **mudanças** ao longo do **tempo**. |
-|  | D: O sistema apresenta comparações entre diferentes **períodos**. |
-| > identificar mudanças | U: Quero identificar **áreas** com alterações. |
-|  | D: O sistema destaca variações relevantes nos **dados** analisados. |
-| > compreender resultados | U: Preciso entender o que esses **dados** significam. |
-|  | D: O sistema fornece um resumo interpretativo dos **resultados**. |
-| > gerar relatório | U: Quero gerar um **relatório** com essas informações. |
-|  | D: O sistema organiza os **dados** e disponibiliza o material para uso. |
-| > apoiar decisão | U: Quero usar essas **informações** para tomada de decisão. |
-|  | D: O sistema apresenta os **dados** de forma compreensível para diferentes perfis de **usuários**. |
+| seleção de rede neural | U: Preciso escolher um modelo de **rede neural** para realizar a segmentação. |
+| > acessar modelos disponíveis | D: O sistema apresenta as **arquiteturas** disponíveis para seleção. |
+| > visualizar informações técnicas | U: Quero ver os detalhes técnicos dos **modelos**. |
+|  | D: O sistema exibe **métricas de desempenho** e **parâmetros dos modelos**. |
+| > comparar modelos | U: Quero comparar as **opções** para decidir qual usar. |
+|  | D: O sistema organiza as informações permitindo a comparação entre **modelos**. |
+| > compreender critérios | U: Preciso justificar minha escolha com base em **dados**. |
+|  | D: O sistema apresenta **informações** suficientes para embasar a decisão. |
+| > selecionar modelo | U: Escolho o **modelo** mais adequado. |
+|  | D: O sistema registra o **modelo** selecionado. |
+| > confirmar seleção | U: Quero garantir que o **modelo** escolhido será utilizado. |
+|  | D: O sistema mantém o **modelo** associado ao processamento. |
+| > executar segmentação | U: Iniciar a segmentação com o **modelo** escolhido. |
+|  | D: O sistema inicia o processamento utilizando o **modelo** selecionado. |
+| > analisar resultado | U: Quero avaliar o **resultado** obtido. |
+|  | D: O sistema apresenta os **resultados** e permite análise da qualidade da segmentação. |
