@@ -1,26 +1,20 @@
-## Cenário de Interação 4 – Comparação Temporal de Resultados  (Lucas Rebouças Silva)
+## Design Centrado na Comunicação – Cenário 4: Comparação Temporal de Resultados (Lucas Rebouças Silva)
 
-**Funcionalidade (Tópico 01):** Comparação temporal de resultados  
-**Atores:** Ricardo Mendes (analista ambiental), Felipe Antunes (consultor ambiental), Sistema GeoSegment  
-
----
-
-### Cenário de Interação
-
-Ricardo Mendes e Felipe Antunes acessam o sistema GeoSegment com o objetivo de comparar resultados de segmentação referentes a diferentes períodos, buscando identificar mudanças na cobertura do território.
-
-Após acessar o sistema e ter disponíveis os dados já processados, eles selecionam os períodos que desejam analisar. O sistema utiliza essas informações e apresenta os resultados de forma integrada.
-
-Durante a análise, o sistema exibe os mapas correspondentes aos períodos selecionados e permite a visualização das diferenças entre eles. As áreas de mudança são destacadas, facilitando a identificação de variações relevantes.
-
-Além da visualização espacial, o sistema apresenta informações comparativas que auxiliam na interpretação dos dados, como variações entre classes e mudanças ao longo do tempo. Com base nessas informações, Ricardo e Felipe conseguem identificar padrões, como crescimento urbano ou redução de vegetação.
-
-Ao explorar os resultados, o sistema mantém os dados atualizados e fornece feedback visual que permite aos usuários compreender a confiabilidade das informações apresentadas.
-
-Após a análise, Ricardo e Felipe utilizam os resultados obtidos para complementar relatórios e apoiar decisões relacionadas ao monitoramento ambiental.
-
----
-
-### Avaliação
-
-O objetivo é alcançado quando Ricardo e Felipe conseguem comparar diferentes períodos de forma rápida e integrada, compreender claramente as mudanças ocorridas e utilizar essas informações para apoiar análises e tomadas de decisão, sem a necessidade de recorrer a ferramentas externas.
+| tópico > subtópico (diálogo) | falas e signos |
+|-----------------------------|----------------|
+| comparação temporal de resultados | U: Preciso comparar **resultados** de diferentes períodos para identificar mudanças. |
+| > acessar dados históricos | D: O sistema disponibiliza os **dados** de segmentações anteriores. |
+| > selecionar períodos | U: Quero escolher os **períodos** que desejo comparar. |
+|  | D: O sistema permite selecionar diferentes **períodos** para análise. |
+| > visualizar mapas | U: Quero visualizar os **mapas** dos períodos selecionados. |
+|  | D: O sistema apresenta os **mapas** de forma integrada. |
+| > comparar visualmente | U: Quero identificar diferenças entre os **períodos**. |
+|  | D: O sistema destaca as áreas de mudança entre os **mapas**. |
+| > analisar variações | U: Quero entender quais **classes** tiveram mais alteração. |
+|  | D: O sistema apresenta variações entre **classes** ao longo do tempo. |
+| > compreender resultados | U: Preciso confiar na **comparação** apresentada. |
+|  | D: O sistema fornece **feedback** sobre a confiabilidade dos **dados**. |
+| > interpretar mudanças | U: Quero interpretar os **padrões** identificados. |
+|  | D: O sistema organiza as **informações** para facilitar a análise. |
+| > utilizar resultados | U: Quero usar essa comparação em **relatórios** ou decisões. |
+|  | D: O sistema disponibiliza os resultados para uso em análises e **relatórios**. |
