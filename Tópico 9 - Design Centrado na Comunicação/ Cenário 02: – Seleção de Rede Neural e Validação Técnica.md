@@ -6,7 +6,7 @@
 | > acessar modelos disponíveis | D: O sistema apresenta as **arquiteturas** disponíveis para seleção. |
 | > visualizar informações técnicas | U: Quero ver os detalhes técnicos dos **modelos**. |
 |  | D: O sistema exibe **métricas de desempenho** e **parâmetros dos modelos**. |
-| > comparar modelos | U: Quero comparar as **opções** para decidir qual usar. |
+| > comparar modelos | U: Quero comparar as **opções** para decidir qual usar. | 
 |  | D: O sistema organiza as informações permitindo a comparação entre **modelos**. |
 | > compreender critérios | U: Preciso justificar minha escolha com base em **dados**. |
 |  | D: O sistema apresenta **informações** suficientes para embasar a decisão. |
