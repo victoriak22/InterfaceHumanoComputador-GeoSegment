@@ -1,4 +1,4 @@
-# Modelo 01 — Avaliações Heurísticas
+## Modelo 01 — Avaliações Heurísticas
 
 ## Avaliadores
 
@@ -7,3 +7,5 @@
 - [Lucas](./Lucas.md)
 - [Victor](./Victor.md)
 - [Vinicius](./Vinicius.md)
+
+## Modelo 02 — Avaliações Heurísticas
